@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/page-gallery</content-type>	<display-template>/templates/web/pages/gallery-page.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>3e2e</objectGroupId>
+	<objectId>3e2e5567-547f-3516-39eb-8a8005694038</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>gallery</folder-name>
+	<internal-name>Gallery</internal-name>
+	<title>Gallery</title>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>4000</orderDefault_f>
+	<images>	<item>	<imageTitle>Foods</imageTitle>
+	<image>/static-assets/images/photos/1.jpg</image>
+	</item>	<item>	<imageTitle>Coffee</imageTitle>
+	<image>/static-assets/images/photos/2.jpg</image>
+	</item>	<item>	<imageTitle>Travel</imageTitle>
+	<image>/static-assets/images/photos/3.jpg</image>
+	</item>	<item>	<imageTitle>Adventure</imageTitle>
+	<image>/static-assets/images/photos/4.jpg</image>
+	</item>	<item>	<imageTitle>Fruits</imageTitle>
+	<image>/static-assets/images/photos/5.jpg</image>
+	</item>	<item>	<imageTitle>Summer</imageTitle>
+	<image>/static-assets/images/photos/6.jpg</image>
+	</item>	<item>	<imageTitle>Bathroom</imageTitle>
+	<image>/static-assets/images/photos/7.jpg</image>
+	</item>	<item>	<imageTitle>Rooms</imageTitle>
+	<image>/static-assets/images/photos/8.jpg</image>
+	</item>	<item>	<imageTitle>Big Room</imageTitle>
+	<image>/static-assets/images/photos/9.jpg</image>
+	</item>	<item>	<imageTitle>Living Room</imageTitle>
+	<image>/static-assets/images/photos/11.jpg</image>
+	</item></images>
+	<createdDate>5/15/2017 16:54:46</createdDate>
+	<createdDate_dt>5/15/2017 16:54:46</createdDate_dt>
+	<lastModifiedDate>5/15/2017 17:9:36</lastModifiedDate>
+	<lastModifiedDate_dt>5/15/2017 17:9:36</lastModifiedDate_dt>
+</page>

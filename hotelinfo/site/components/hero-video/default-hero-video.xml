@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-hero-video</content-type>	<display-template>/templates/web/components/hero-video-component.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f1ef</objectGroupId>
+	<objectId>f1ef6c0d-ef2c-cb16-45e4-348b9ac8e64c</objectId>
+	<file-name>default-hero-video.xml</file-name>
+	<folder-name/>
+	<internal-name>Default Hero Video</internal-name>
+	<title>Best hotel in Dubai</title>
+	<subTitle>Most luxurious hotel of asia with the royal treatments and excellent customer service.</subTitle>
+	<video>/static-assets/videos/690424100.mp4</video>
+	<fallbackImage>/static-assets/images/photos/banner.jpg</fallbackImage>
+	<createdDate>5/11/2017 16:18:7</createdDate>
+	<createdDate_dt>5/11/2017 16:18:7</createdDate_dt>
+	<lastModifiedDate>5/15/2017 17:20:56</lastModifiedDate>
+	<lastModifiedDate_dt>5/15/2017 17:20:56</lastModifiedDate_dt>
+</component>

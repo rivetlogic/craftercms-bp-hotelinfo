@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-room</content-type>	<display-template>/templates/web/components/room-component.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>b828</objectGroupId>
+	<objectId>b828f57c-add5-ef57-8320-e6c7a3558e97</objectId>
+	<file-name>room-c.xml</file-name>
+	<folder-name/>
+	<internal-name>Room C</internal-name>
+	<name>Room C</name>
+	<sizeLabel>Size</sizeLabel>
+	<size>44 sq</size>
+	<priceLabel>Price</priceLabel>
+	<price>$200.00</price>
+	<viewDescriptionButtonLabel>Check Details</viewDescriptionButtonLabel>
+	<shortDesciption>Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible</shortDesciption>
+	<longDescription>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique dolor in diam auctor, vitae condimentum ante dignissim. Aliquam in iaculis dui, vitae tincidunt dolor. Proin cursus mattis est eget fermentum. Vivamus quis malesuada orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus pharetra sapien, at vehicula velit malesuada vitae. Sed in venenatis elit, nec lobortis magna. Donec vestibulum vulputate sem, vitae dignissim arcu ultricies ac. Vestibulum vel fermentum sapien. Aliquam egestas arcu quis iaculis vestibulum.
+
+Pellentesque eu rutrum odio, quis elementum erat. Aliquam rutrum et ex accumsan dignissim. Duis sagittis diam et gravida volutpat. Nulla fermentum vulputate justo, auctor fringilla erat faucibus id. Suspendisse pulvinar hendrerit suscipit. Mauris molestie, leo facilisis ullamcorper interdum, ex urna condimentum risus, vitae sollicitudin tortor ipsum non ante. Vestibulum dapibus eros blandit eleifend scelerisque. Phasellus condimentum eros ut consequat faucibus. Donec dignissim tempor eros hendrerit sagittis. Sed lacinia molestie justo, non mattis urna. Fusce rhoncus, lectus eu faucibus porta, mi risus malesuada ex, vel imperdiet orci nulla vel massa. Curabitur dignissim id ante vitae auctor. Aenean massa erat, consequat id luctus ac, maximus quis nibh.</longDescription>
+	<amenitites>	<item>	<text>One of the greatest barriers to making the sale is</text>
+	</item>	<item>	<text>Principle to work to make more money while having </text>
+	</item>	<item>	<text>Unlucky people. Don't stubbornly.</text>
+	</item>	<item>	<text>Principle to work to make more money while having </text>
+	</item></amenitites>
+	<photos>	<item>	<photo>/static-assets/images/photos/11.jpg</photo>
+	</item>	<item>	<photo>/static-assets/images/photos/7.jpg</photo>
+	</item>	<item>	<photo>/static-assets/images/photos/9.jpg</photo>
+	</item></photos>
+	<createdDate>5/12/2017 14:55:26</createdDate>
+	<createdDate_dt>5/12/2017 14:55:26</createdDate_dt>
+	<lastModifiedDate>5/12/2017 21:2:36</lastModifiedDate>
+	<lastModifiedDate_dt>5/12/2017 21:2:36</lastModifiedDate_dt>
+	<detailsUrl>/rooms-showcase/room-detail</detailsUrl>
+	<amenititesLabel>Amenitites</amenititesLabel>
+</component>
