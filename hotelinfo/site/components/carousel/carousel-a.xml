@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-carousel</content-type>	<display-template>/templates/web/components/carousel-component.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>8782</objectGroupId>
+	<objectId>878245e9-9157-8e1c-80f4-f8a5b1fe33ba</objectId>
+	<images>	<item>	<image>/static-assets/images/photos/8.jpg</image>
+	</item>	<item>	<image>/static-assets/images/photos/9.jpg</image>
+	</item>	<item>	<image>/static-assets/images/photos/10.jpg</image>
+	</item></images>
+	<internal-name>Carousel A</internal-name>
+	<urlTitle>Rooms</urlTitle>
+	<url>/rooms-showcase</url>
+	<file-name>carousel-a.xml</file-name>
+	<folder-name/>
+	<createdDate>5/11/2017 16:11:18</createdDate>
+	<createdDate_dt>5/11/2017 16:11:18</createdDate_dt>
+	<lastModifiedDate>5/15/2017 15:45:28</lastModifiedDate>
+	<lastModifiedDate_dt>5/15/2017 15:45:28</lastModifiedDate_dt>
+</component>

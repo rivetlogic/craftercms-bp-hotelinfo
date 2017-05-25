@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/page-details</content-type>	<display-template>/templates/web/pages/details-page.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>62bb</objectGroupId>
+	<objectId>62bb1092-2311-c247-8efd-97b89602d30a</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>package-detail</folder-name>
+	<internal-name>Package Detail</internal-name>
+	<title>Package Detail</title>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>5/12/2017 21:24:20</createdDate>
+	<createdDate_dt>5/12/2017 21:24:20</createdDate_dt>
+	<lastModifiedDate>5/15/2017 14:45:31</lastModifiedDate>
+	<lastModifiedDate_dt>5/15/2017 14:45:31</lastModifiedDate_dt>
+	<contentNotFoundLabel>Nothing to show</contentNotFoundLabel>
+</page>

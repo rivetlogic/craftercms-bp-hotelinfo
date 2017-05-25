@@ -1,0 +1,41 @@
+<config>
+	<category>
+      <label>General</label>
+      <component>
+        <label>Component - Carousel</label>
+        <type>/component/component-carousel</type>
+        <path>/site/components/carousel</path>
+      </component>
+      <component>
+        <label>Component - Hero Video</label>
+        <type>/component/component-hero-video</type>
+        <path>/site/components/hero-video</path>
+      </component>
+      <component>
+        <label>Component - Room</label>
+        <type>/component/component-room</type>
+        <path>/site/components/room</path>
+      </component>
+      <component>
+        <label>Component - Package</label>
+        <type>/component/component-package</type>
+        <path>/site/components/packages</path>
+      </component>
+    </category>
+    <browse>
+        <label>Component - Carousel</label>
+        <path>/site/components/carousel</path>
+    </browse>
+    <browse>
+        <label>Component - Hero Video</label>
+        <path>/site/components/hero-video</path>
+    </browse>
+    <browse>
+        <label>Component - Room</label>
+        <path>/site/components/room</path>
+    </browse>
+    <browse>
+        <label>Component - Package</label>
+        <path>/site/components/packages</path>
+    </browse>
+</config>

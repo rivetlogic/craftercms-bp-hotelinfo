@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-header</content-type>	<display-template>/templates/web/components/header-component.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>0849</objectGroupId>
+	<objectId>08492422-6356-f9a0-7eb2-c9a1f51734b3</objectId>
+	<file-name>default-header.xml</file-name>
+	<folder-name/>
+	<internal-name>Default Header</internal-name>
+	<title>Holiday Crown</title>
+	<headerImage>/static-assets/images/logo.png</headerImage>
+	<createdDate>5/9/2017 21:57:31</createdDate>
+	<createdDate_dt>5/9/2017 21:57:31</createdDate_dt>
+	<lastModifiedDate>5/9/2017 21:57:31</lastModifiedDate>
+	<lastModifiedDate_dt>5/9/2017 21:57:31</lastModifiedDate_dt>
+</component>

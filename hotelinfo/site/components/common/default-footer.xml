@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-footer</content-type>	<display-template>/templates/web/components/footer-component.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>597d</objectGroupId>
+	<objectId>597d85e7-c798-d960-1623-c6ac556138b2</objectId>
+	<file-name>default-footer.xml</file-name>
+	<folder-name/>
+	<internal-name>Default Footer</internal-name>
+	<descriptionTitle>Holiday Crown</descriptionTitle>
+	<quickLinksTitle>Quick Links</quickLinksTitle>
+	<description>&lt;p class="p1"&gt;&lt;span class="s1"&gt;Holiday Crown was these three and songs arose whose. Of in vicinity contempt together in possible branched. Assured company hastily looking garrets in oh. Most have love my gone to this so. Discovered interested prosperous the our affronting insipidity day. Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible.&lt;/span&gt;&lt;/p&gt;</description>
+	<quickLinks>	<item>	<label>Rooms &amp; Tariff</label>
+	<url>/rooms-showcase</url>
+	</item>	<item>	<label>Gallery</label>
+	<url>/gallery</url>
+	</item>	<item>	<label>Tour Packages</label>
+	<url>/packages-showcase</url>
+	</item></quickLinks>
+	<socialSitesLinks>	<item>	<url>#</url>
+	<socialSite>facebook</socialSite>
+	</item>	<item>	<socialSite>instagram</socialSite>
+	<url>#</url>
+	</item>	<item>	<socialSite>twitter</socialSite>
+	<url>#</url>
+	</item>	<item>	<socialSite>pinterest</socialSite>
+	<url>#</url>
+	</item>	<item>	<socialSite>tumblr</socialSite>
+	<url>#</url>
+	</item>	<item>	<socialSite>youtube</socialSite>
+	<url>#</url>
+	</item></socialSitesLinks>
+	<createdDate>5/9/2017 22:0:2</createdDate>
+	<createdDate_dt>5/9/2017 22:0:2</createdDate_dt>
+	<lastModifiedDate>5/15/2017 17:44:33</lastModifiedDate>
+	<lastModifiedDate_dt>5/15/2017 17:44:33</lastModifiedDate_dt>
+</component>

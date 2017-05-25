@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-package</content-type>	<display-template>/templates/web/components/package-component.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>375d</objectGroupId>
+	<objectId>375d77ab-8207-7775-a097-91565b258ec9</objectId>
+	<file-name>package-d.xml</file-name>
+	<folder-name/>
+	<internal-name>Package D</internal-name>
+	<name>Package D</name>
+	<priceLabel>Price</priceLabel>
+	<price>$200.00</price>
+	<viewDescriptionButtonLabel>Check Details</viewDescriptionButtonLabel>
+	<shortDesciption>Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible</shortDesciption>
+	<longDescription>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique dolor in diam auctor, vitae condimentum ante dignissim. Aliquam in iaculis dui, vitae tincidunt dolor. Proin cursus mattis est eget fermentum. Vivamus quis malesuada orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus pharetra sapien, at vehicula velit malesuada vitae. Sed in venenatis elit, nec lobortis magna. Donec vestibulum vulputate sem, vitae dignissim arcu ultricies ac. Vestibulum vel fermentum sapien. Aliquam egestas arcu quis iaculis vestibulum.
+
+Pellentesque eu rutrum odio, quis elementum erat. Aliquam rutrum et ex accumsan dignissim. Duis sagittis diam et gravida volutpat. Nulla fermentum vulputate justo, auctor fringilla erat faucibus id. Suspendisse pulvinar hendrerit suscipit. Mauris molestie, leo facilisis ullamcorper interdum, ex urna condimentum risus, vitae sollicitudin tortor ipsum non ante. Vestibulum dapibus eros blandit eleifend scelerisque. Phasellus condimentum eros ut consequat faucibus. Donec dignissim tempor eros hendrerit sagittis. Sed lacinia molestie justo, non mattis urna. Fusce rhoncus, lectus eu faucibus porta, mi risus malesuada ex, vel imperdiet orci nulla vel massa. Curabitur dignissim id ante vitae auctor. Aenean massa erat, consequat id luctus ac, maximus quis nibh.</longDescription>
+	<include>	<item>	<item>Item A</item>
+	</item>	<item>	<item>Item B</item>
+	</item>	<item>	<item>Item C</item>
+	</item></include>
+	<photos>	<item>	<photo>/static-assets/images/photos/6.jpg</photo>
+	</item>	<item>	<photo>/static-assets/images/photos/9.jpg</photo>
+	</item></photos>
+	<createdDate>5/12/2017 16:40:51</createdDate>
+	<createdDate_dt>5/12/2017 16:40:51</createdDate_dt>
+	<lastModifiedDate>5/12/2017 21:25:50</lastModifiedDate>
+	<lastModifiedDate_dt>5/12/2017 21:25:50</lastModifiedDate_dt>
+	<includedLabel>Included</includedLabel>
+	<detailsUrl>/packages-showcase/package-detail</detailsUrl>
+</component>
