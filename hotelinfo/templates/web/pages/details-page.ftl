@@ -14,10 +14,14 @@
                         <#assign first = true>
                         <#list photos as photo>
                             <#if first>
-                                <div class="item active"><img src="${photo!""}" class="img-responsive" alt="slide"></div>
+                                <div class="item active">
+                                    <img src="${photo!""}" class="img-responsive" alt="slide">
+                                </div>
                                 <#assign first = false>
                             <#else>
-                                <div class="item  height-full"><img src="${photo!""}"  class="img-responsive" alt="slide"></div>
+                                <div class="item height-full">
+                                    <img src="${photo!""}"  class="img-responsive" alt="slide">
+                                </div>
                             </#if>
                         </#list>
                     </#if>

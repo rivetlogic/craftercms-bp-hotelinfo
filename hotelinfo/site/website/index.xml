@@ -11,10 +11,10 @@
 	<folder-name/>
 	<createdDate>1/31/2017 16:18:14</createdDate>
 	<createdDate_dt>1/31/2017 16:18:14</createdDate_dt>
-	<lastModifiedDate>5/11/2017 16:17:59</lastModifiedDate>
-	<lastModifiedDate_dt>5/11/2017 16:17:59</lastModifiedDate_dt>
+	<lastModifiedDate>6/16/2017 16:14:47</lastModifiedDate>
+	<lastModifiedDate_dt>6/16/2017 16:14:47</lastModifiedDate_dt>
 	<heroVideo>	<item>	<key>/site/components/hero-video/default-hero-video.xml</key>
-	<value>Deafult Hero Video</value>
+	<value>Default Hero Video</value>
 	<include>/site/components/hero-video/default-hero-video.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></heroVideo>

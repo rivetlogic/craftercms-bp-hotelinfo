@@ -13,12 +13,10 @@
     <div id="information" class="spacer reserve-info ">
         <div class="container">
             <div class="row">
-                <div class="col-sm-7 col-md-8">
-                    <div class="embed-responsive embed-responsive-16by9 wowload fadeInLeft" <@studio.iceAttr iceGroup="mainRte"/>>
-                        ${contentModel.mainRte!""}
-                    </div>
+                <div class="col-md-8">
+                    ${contentModel.mainRte!""}
                 </div>
-                <div class="col-sm-5 col-md-4" <@studio.iceAttr iceGroup="secondRte"/>>
+                <div class="col-md-4" <@studio.iceAttr iceGroup="secondRte"/>>
                     ${contentModel.secondRte!""}
                 </div>
             </div>
