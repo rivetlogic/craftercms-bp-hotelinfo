@@ -17,20 +17,20 @@
 Phasellus sagittis sapien sed viverra fermentum. Cras nisl sapien, accumsan mollis nulla nec, pulvinar varius sem. Suspendisse condimentum suscipit eleifend. Aenean magna magna, aliquam et imperdiet eget, tincidunt eu ipsum. Fusce rutrum non sem quis mattis. Praesent tincidunt, metus sit amet aliquet vehicula, metus lacus accumsan tortor, et dictum ligula justo non lacus. Phasellus dictum lacinia ligula, sed porta turpis varius id. Nam tempus molestie suscipit. Nulla mollis, lorem ultricies volutpat hendrerit, lacus ligula facilisis nunc, vitae lacinia neque eros sodales libero. Integer tincidunt nisi mauris, a volutpat quam luctus ac. Ut suscipit purus at ultrices congue. Etiam dictum ut dui eget maximus. Donec nec suscipit erat.</longDescription>
 	<file-name>room-a.xml</file-name>
 	<folder-name/>
+	<photos>	<item>	<photo>/static-assets/images/photos/8.jpg</photo>
+	</item>	<item>	<photo>/static-assets/images/photos/9.jpg</photo>
+	</item>	<item>	<photo>/static-assets/images/photos/11.jpg</photo>
+	</item>	<item>	<photo>/static-assets/images/favicon.png</photo>
+	</item></photos>
+	<createdDate>5/12/2017 2:32:59</createdDate>
+	<createdDate_dt>5/12/2017 2:32:59</createdDate_dt>
+	<lastModifiedDate>6/16/2017 21:49:49</lastModifiedDate>
+	<lastModifiedDate_dt>6/16/2017 21:49:49</lastModifiedDate_dt>
+	<detailsUrl>/rooms-showcase/room-detail</detailsUrl>
+	<amenititesLabel>Amenities</amenititesLabel>
 	<amenitites>	<item>	<text>One of the greatest barriers to making the sale is</text>
 	</item>	<item>	<text>Principle to work to make more money while having </text>
 	</item>	<item>	<text>Unlucky people. Don't stubbornly.</text>
 	</item>	<item>	<text>Principle to work to make more money while having </text>
-	</item>	<item>	<text>Space in your house How to sell faster than your n</text>
 	</item></amenitites>
-	<photos>	<item>	<photo>/static-assets/images/photos/8.jpg</photo>
-	</item>	<item>	<photo>/static-assets/images/photos/9.jpg</photo>
-	</item>	<item>	<photo>/static-assets/images/photos/11.jpg</photo>
-	</item></photos>
-	<createdDate>5/12/2017 2:32:59</createdDate>
-	<createdDate_dt>5/12/2017 2:32:59</createdDate_dt>
-	<lastModifiedDate>5/12/2017 21:2:12</lastModifiedDate>
-	<lastModifiedDate_dt>5/12/2017 21:2:12</lastModifiedDate_dt>
-	<detailsUrl>/rooms-showcase/room-detail</detailsUrl>
-	<amenititesLabel>Amenitites</amenititesLabel>
 </component>

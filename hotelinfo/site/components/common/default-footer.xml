@@ -10,28 +10,30 @@
 	<descriptionTitle>Holiday Crown</descriptionTitle>
 	<quickLinksTitle>Quick Links</quickLinksTitle>
 	<description>&lt;p class="p1"&gt;&lt;span class="s1"&gt;Holiday Crown was these three and songs arose whose. Of in vicinity contempt together in possible branched. Assured company hastily looking garrets in oh. Most have love my gone to this so. Discovered interested prosperous the our affronting insipidity day. Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible.&lt;/span&gt;&lt;/p&gt;</description>
-	<quickLinks>	<item>	<label>Rooms &amp; Tariff</label>
+	<quickLinks>	<item>	<label>Home</label>
+	<url>/</url>
+	</item>	<item>	<label>Rooms &amp; Tariff</label>
 	<url>/rooms-showcase</url>
-	</item>	<item>	<label>Gallery</label>
-	<url>/gallery</url>
 	</item>	<item>	<label>Tour Packages</label>
 	<url>/packages-showcase</url>
+	</item>	<item>	<label>Gallery</label>
+	<url>/gallery</url>
 	</item></quickLinks>
-	<socialSitesLinks>	<item>	<url>#</url>
+	<socialSitesLinks>	<item>	<url>https://www.facebook.com/</url>
 	<socialSite>facebook</socialSite>
 	</item>	<item>	<socialSite>instagram</socialSite>
-	<url>#</url>
+	<url>https://www.instagram.com/</url>
 	</item>	<item>	<socialSite>twitter</socialSite>
-	<url>#</url>
+	<url>https://twitter.com/</url>
 	</item>	<item>	<socialSite>pinterest</socialSite>
-	<url>#</url>
+	<url>https://www.pinterest.com/</url>
 	</item>	<item>	<socialSite>tumblr</socialSite>
-	<url>#</url>
+	<url>https://www.tumblr.com/</url>
 	</item>	<item>	<socialSite>youtube</socialSite>
-	<url>#</url>
+	<url>https://www.youtube.com/</url>
 	</item></socialSitesLinks>
 	<createdDate>5/9/2017 22:0:2</createdDate>
 	<createdDate_dt>5/9/2017 22:0:2</createdDate_dt>
-	<lastModifiedDate>5/15/2017 17:44:33</lastModifiedDate>
-	<lastModifiedDate_dt>5/15/2017 17:44:33</lastModifiedDate_dt>
+	<lastModifiedDate>6/16/2017 22:19:1</lastModifiedDate>
+	<lastModifiedDate_dt>6/16/2017 22:19:1</lastModifiedDate_dt>
 </component>

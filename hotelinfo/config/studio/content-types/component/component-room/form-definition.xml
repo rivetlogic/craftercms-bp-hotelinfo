@@ -225,12 +225,12 @@
 					<properties>
 						<property>
 							<name>size</name>
-							<value>50</value>
+							<value>15</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>50</value>
+							<value>15</value>
 							<type>int</type>
 						</property>
 						<property>
@@ -268,12 +268,12 @@
 					<properties>
 						<property>
 							<name>size</name>
-							<value>50</value>
+							<value>8</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>50</value>
+							<value>8</value>
 							<type>int</type>
 						</property>
 						<property>
@@ -311,12 +311,12 @@
 					<properties>
 						<property>
 							<name>size</name>
-							<value>50</value>
+							<value>15</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>50</value>
+							<value>15</value>
 							<type>int</type>
 						</property>
 						<property>
@@ -354,12 +354,12 @@
 					<properties>
 						<property>
 							<name>size</name>
-							<value>50</value>
+							<value>8</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>50</value>
+							<value>8</value>
 							<type>int</type>
 						</property>
 						<property>
@@ -390,9 +390,9 @@
 					<type>input</type>
 					<id>amenititesLabel</id>
 					<iceId></iceId>
-					<title>Amenitites Label</title>
+					<title>Amenities Label</title>
 					<description></description>
-					<defaultValue>Amenitites</defaultValue>
+					<defaultValue>Amenities</defaultValue>
 					<help></help>
 					<properties>
 						<property>
@@ -433,7 +433,7 @@
 					<type>repeat</type>
 					<id>amenitites</id>
 					<iceId></iceId>
-					<title>Amenitites</title>
+					<title>Amenities</title>
 					<description></description>
 					<minOccurs>0</minOccurs>
 					<maxOccurs>*</maxOccurs>
@@ -586,7 +586,7 @@
 		<section>
 			<title>Photos</title>
 			<description></description>
-			<defaultOpen>false</defaultOpen>
+			<defaultOpen>true</defaultOpen>
 			<fields>
 				<field>
 					<type>repeat</type>
@@ -614,18 +614,18 @@
 					<id>photo</id>
 					<iceId></iceId>
 					<title>Photo</title>
-					<description></description>
+					<description>The recommended aspect ratio for the image is 3:2</description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
 							<name>width</name>
-							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;1000&quot;, &quot;max&quot;:&quot;1140&quot; }</value>
 							<type>range</type>
 						</property>
 						<property>
 							<name>height</name>
-							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;625&quot;, &quot;max&quot;:&quot;760&quot; }</value>
 							<type>range</type>
 						</property>
 						<property>
