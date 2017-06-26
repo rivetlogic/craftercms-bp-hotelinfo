@@ -116,6 +116,11 @@ div.selector option{ padding: 10px;}
     height: 206px;
 }
 
+.logo-image{
+    height: 53px;
+    width: 154px;
+}
+
 .rooms .info{padding: 1.5em;background-color: #E8E7E0;}
 
 
