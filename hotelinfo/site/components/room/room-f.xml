@@ -20,11 +20,13 @@ Pellentesque eu rutrum odio, quis elementum erat. Aliquam rutrum et ex accumsan 
 	<amenitites>	<item>	<text>One of the greatest barriers to making the sale is your prospect.</text>
 	</item></amenitites>
 	<photos>	<item>	<photo>/static-assets/images/photos/10.jpg</photo>
+	</item>	<item>	<photo>/static-assets/images/photos/1.jpg</photo>
+	</item>	<item>	<photo>/static-assets/images/photos/11.jpg</photo>
 	</item></photos>
 	<createdDate>5/12/2017 15:15:34</createdDate>
 	<createdDate_dt>5/12/2017 15:15:34</createdDate_dt>
-	<lastModifiedDate>6/16/2017 21:41:56</lastModifiedDate>
-	<lastModifiedDate_dt>6/16/2017 21:41:56</lastModifiedDate_dt>
+	<lastModifiedDate>6/27/2017 20:39:0</lastModifiedDate>
+	<lastModifiedDate_dt>6/27/2017 20:39:0</lastModifiedDate_dt>
 	<detailsUrl>/rooms-showcase/room-detail</detailsUrl>
 	<amenititesLabel>Amenities</amenititesLabel>
 </component>
