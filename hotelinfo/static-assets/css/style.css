@@ -103,7 +103,24 @@ div.selector option{ padding: 10px;}
 
 
 /*rooms and tariff*/
-.rooms{margin-bottom: 2em;}
+.rooms{
+    margin-bottom: 2em;
+}
+
+.detail-image{
+    height: 294px;
+    width: 100%;
+}
+
+.info{
+    height: 206px;
+}
+
+.logo-image{
+    height: 53px;
+    width: 154px;
+}
+
 .rooms .info{padding: 1.5em;background-color: #E8E7E0;}
 
 
@@ -111,6 +128,11 @@ div.selector option{ padding: 10px;}
 .room-features .size-price{background-color: #C7C5BB;padding: 2em 0;text-align: center;color: #fff;height: 10.97em;line-height: 3em;}
 .room-features .size-price span{display: block;font-size: 2em;}
 
+
+.carrousel-big-image{
+    width: 940px !important;
+    height: 626px !important;
+}
 
 .gallery .gallery-image{margin-bottom: 2em;display: inline-block;}
 .gallery .gallery-image img{width: 100%;}
@@ -144,10 +166,28 @@ body::-webkit-scrollbar {
     }
 
 
-
+@media (max-width: 991px) and (orientation : landscape){
+    .carrousel-big-image{
+        width: 1140px !important;
+        height: 760px !important;
+    }
+}
 
 /*responsive starts here*/
 @media (max-width: 991px){
+    .detail-image{
+        height: 220px;
+        width: 100%;
+    }
+
+    .info{
+        height: 262px;
+    }
+
+    .carrousel-big-image{
+        width: 720px !important;
+        height: 480px !important;
+    }
 }
 @media (max-width: 767px){	
 	.navbar-toggle{margin-top: 23px;}
@@ -171,6 +211,11 @@ body::-webkit-scrollbar {
     footer h4{margin-top: 2em;}
 
     .room-features .size-price{margin-bottom: 2em;}
+
+    .carrousel-big-image{
+        width: 339px !important;
+        height: 226px !important;
+    }
 }
 
 .stopfade { opacity: .5; }
