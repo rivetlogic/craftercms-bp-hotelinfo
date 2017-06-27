@@ -155,8 +155,9 @@ div.selector option{ padding: 10px;}
 
 
 .carrousel-big-image{
-    width: 1140px !important;
     height: 760px !important;
+    width: 100%;
+    object-fit: cover;
 }
 
 .gallery .gallery-image{margin-bottom: 2em;display: inline-block;}
@@ -193,8 +194,9 @@ body::-webkit-scrollbar {
 
 @media (max-width: 991px) and (orientation : landscape){
     .carrousel-big-image{
-        width: 1140px !important;
         height: 760px !important;
+        width: 100%;
+        object-fit: cover;
     }
 }
 
@@ -210,8 +212,9 @@ body::-webkit-scrollbar {
     }
 
     .carrousel-big-image{
-        width: 720px !important;
         height: 480px !important;
+        width: 100%;
+        object-fit: cover;
     }
 }
 @media (max-width: 767px){	
@@ -238,8 +241,9 @@ body::-webkit-scrollbar {
     .room-features .size-price{margin-bottom: 2em;}
 
     .carrousel-big-image{
-        width: 339px !important;
         height: 226px !important;
+        width: 100%;
+        object-fit: cover;
     }
 }
 
