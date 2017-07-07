@@ -252,3 +252,7 @@ body::-webkit-scrollbar {
 .bannerVideo { 
     width: 100%;
 }
+
+.clickable {
+    cursor: pointer !important;
+}
