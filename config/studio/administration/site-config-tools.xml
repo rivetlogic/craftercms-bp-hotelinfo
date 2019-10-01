@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<config>
-   <version>3</version>
+<?xml version="1.0" encoding="UTF-8"?><config>
+   <version>4</version>
    <tools>
       <tool>
          <name>content-types</name>
