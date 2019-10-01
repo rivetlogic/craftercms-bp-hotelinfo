@@ -27,10 +27,10 @@ Pellentesque eu rutrum odio, quis elementum erat. Aliquam rutrum et ex accumsan 
 	</item>	<item>	<photo>/static-assets/images/photos/10.jpg</photo>
 	</item>	<item>	<photo>/static-assets/images/photos/11.jpg</photo>
 	</item></photos>
-	<createdDate>5/12/2017 15:0:13</createdDate>
-	<createdDate_dt>5/12/2017 15:0:13</createdDate_dt>
-	<lastModifiedDate>6/16/2017 16:49:9</lastModifiedDate>
-	<lastModifiedDate_dt>6/16/2017 16:49:9</lastModifiedDate_dt>
+	<createdDate>2017-5-12T15:0:13.000Z</createdDate>
+	<createdDate_dt>2017-5-12T15:0:13.000Z</createdDate_dt>
+	<lastModifiedDate>2017-6-16T16:49:9.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-6-16T16:49:9.000Z</lastModifiedDate_dt>
 	<detailsUrl>/rooms-showcase/room-detail</detailsUrl>
 	<amenititesLabel>Amenities</amenititesLabel>
 </component>

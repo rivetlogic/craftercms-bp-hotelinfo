@@ -22,10 +22,10 @@ Pellentesque eu rutrum odio, quis elementum erat. Aliquam rutrum et ex accumsan 
 	</item>	<item>	<photo>/static-assets/images/photos/10.jpg</photo>
 	</item>	<item>	<photo>/static-assets/images/photos/11.jpg</photo>
 	</item></photos>
-	<createdDate>5/12/2017 14:49:10</createdDate>
-	<createdDate_dt>5/12/2017 14:49:10</createdDate_dt>
-	<lastModifiedDate>6/16/2017 21:40:37</lastModifiedDate>
-	<lastModifiedDate_dt>6/16/2017 21:40:37</lastModifiedDate_dt>
+	<createdDate>2017-5-12T14:49:10.000Z</createdDate>
+	<createdDate_dt>2017-5-12T14:49:10.000Z</createdDate_dt>
+	<lastModifiedDate>2017-6-16T21:40:37.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-6-16T21:40:37.000Z</lastModifiedDate_dt>
 	<detailsUrl>/rooms-showcase/room-detail</detailsUrl>
 	<amenititesLabel>Amenities</amenititesLabel>
 	<amenitites>	<item>	<text>One of the greatest barriers to making the sale is</text>

@@ -9,10 +9,10 @@
 	<internal-name>Rooms &amp; Tariff</internal-name>
 	<placeInNav>true</placeInNav>
 	<orderDefault_f>2000</orderDefault_f>
-	<createdDate>5/11/2017 15:13:3</createdDate>
-	<createdDate_dt>5/11/2017 15:13:3</createdDate_dt>
-	<lastModifiedDate>5/24/2017 15:50:49</lastModifiedDate>
-	<lastModifiedDate_dt>5/24/2017 15:50:49</lastModifiedDate_dt>
+	<createdDate>2017-5-11T15:13:3.000Z</createdDate>
+	<createdDate_dt>2017-5-11T15:13:3.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-24T15:50:49.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-24T15:50:49.000Z</lastModifiedDate_dt>
 	<title>Rooms &amp; Tariff</title>
 	<rooms>	<item>	<key>/site/components/room/room-b.xml</key>
 	<value>Room B</value>

@@ -22,10 +22,10 @@ Pellentesque eu rutrum odio, quis elementum erat. Aliquam rutrum et ex accumsan 
 	<photos>	<item>	<photo>/static-assets/images/photos/6.jpg</photo>
 	</item>	<item>	<photo>/static-assets/images/photos/9.jpg</photo>
 	</item></photos>
-	<createdDate>5/12/2017 16:40:51</createdDate>
-	<createdDate_dt>5/12/2017 16:40:51</createdDate_dt>
-	<lastModifiedDate>5/12/2017 21:25:50</lastModifiedDate>
-	<lastModifiedDate_dt>5/12/2017 21:25:50</lastModifiedDate_dt>
+	<createdDate>2017-5-12T16:40:51.000Z</createdDate>
+	<createdDate_dt>2017-5-12T16:40:51.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-12T21:25:50.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-12T21:25:50.000Z</lastModifiedDate_dt>
 	<includedLabel>Included</includedLabel>
 	<detailsUrl>/packages-showcase/package-detail</detailsUrl>
 </component>
