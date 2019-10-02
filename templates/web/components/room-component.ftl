@@ -1,8 +1,8 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 <#import "/templates/web/includes/utils.ftl" as utils />
 
-<article <@studio.componentAttr path=contentModel.storeUrl ice=true />>
-    <div class="col-sm-6 wowload fadeInUp">
+<article>
+    <div class="col-sm-6 wowload fadeInUp" <@studio.componentAttr path=contentModel.storeUrl ice=true />>
         <div class="rooms">
             <#if contentModel.photos?? && contentModel.photos.item??>
                 <#assign first = true>
