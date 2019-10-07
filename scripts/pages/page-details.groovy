@@ -1,25 +1,38 @@
 import org.craftercms.engine.service.context.SiteContext
+import org.craftercms.engine.service.UrlTransformationService
+import org.elasticsearch.action.search.SearchRequest
+import org.elasticsearch.index.query.QueryBuilders
+import org.elasticsearch.search.builder.SearchSourceBuilder
+import org.elasticsearch.search.sort.FieldSortBuilder
+import org.elasticsearch.search.sort.SortOrder
 
-def query = searchService.createQuery();
-query.addParam("sort","blastModifiedDate_dt desc")
-query.setQuery( "objectId:${params.id}")
-query.setRows(1)
+def query = "objectId:\"${params.id}\""
 
-def solrResults = searchService.search(query)
-if (solrResults.response.documents.size > 0) {
-    def solrResult = solrResults.response.documents[0]
+UrlTransformationService urlTransformationService
+
+def builder = new SearchSourceBuilder()
+    .query(QueryBuilders.queryStringQuery(query))
+    .from(0)
+    .size(1)
+    .sort(new FieldSortBuilder("lastModifiedDate_dt").order(SortOrder.DESC))
+
+def searchResult = elasticsearch.search(new SearchRequest().source(builder))
+
+if (searchResult.hits.hits) {
+    def result = searchResult.hits.hits[0].getSourceAsMap()
 
     templateModel.found = true
-    templateModel.name_t = solrResult["name_t"]
-    templateModel.sizeLabel = solrResult["sizeLabel"]
-    templateModel.size = solrResult["size"]
-    templateModel.priceLabel = solrResult["priceLabel"]
-    templateModel.price = solrResult["price"]
-    templateModel.shortDesciption_t = solrResult["shortDescription_t"]
-    templateModel.longDescription = solrResult["longDescription"]
-    templateModel.amenititesLabel = solrResult["amenititesLabel"]
-    templateModel.includedLabel = solrResult["includedLabel"]
-    def photos = solrResult["photos.item.photo"]
+    templateModel.name = result["name_t"]
+    templateModel.sizeLabel = result["sizeLabel"]
+    templateModel.size = result["size"]
+    templateModel.priceLabel = result["priceLabel"]
+    templateModel.price = result["price"]
+    templateModel.shortDesciption = result["shortDescription_t"]
+    templateModel.longDescription = result["longDescription"]
+    templateModel.amenititesLabel = result["amenititesLabel"]
+    templateModel.includedLabel = result["includedLabel"]
+    def photos = result["photos.item.photo"]
+    
     if (photos instanceof String) {
         def photosArr = []
         photosArr.add(photos)
@@ -28,8 +41,7 @@ if (solrResults.response.documents.size > 0) {
         templateModel.photos = photos
     }
 
-
-    def amenitites = solrResult["amenitites.item.text"]
+    def amenitites = result["amenitites.item.text"]
     if (amenitites instanceof String) {
         def amenititesArr = []
         amenititesArr.add(amenitites)
@@ -39,7 +51,7 @@ if (solrResults.response.documents.size > 0) {
     }
 
 
-    def include = solrResult["include.item.item"]
+    def include = result["include.item.item"]
     if (include instanceof String) {
         def includes = []
         includes.add(include)
@@ -47,4 +59,4 @@ if (solrResults.response.documents.size > 0) {
     } else {
         templateModel.include = include
     }
-}
+} 
