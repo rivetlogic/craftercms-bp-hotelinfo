@@ -35,7 +35,7 @@
                 <div class="row">
                     <div class="col-sm-12 col-md-5">
                         <p>${shortDescription_t!""}</p>
-                        <p>${longDescription!""}</p>
+                        <p>${longDescription_t!""}</p>
                     </div>
                     <div class="col-sm-6 col-md-3 amenitites">
                         <#if amenitites??>

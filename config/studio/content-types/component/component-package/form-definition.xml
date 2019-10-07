@@ -181,7 +181,7 @@
             </field>
             <field>
                <type>textarea</type>
-               <id>longDescription</id>
+               <id>longDescription_t</id>
                <iceId/>
                <title>Long Description</title>
                <description/>
