@@ -20,16 +20,16 @@
 	<url_s>/gallery</url_s>
 	</item></quickLinks_o>
 	<socialSitesLinks>	<item>	<url_s>https://www.facebook.com/</url_s>
-	<socialSite>facebook</socialSite>
-	</item>	<item>	<socialSite>instagram</socialSite>
+	<socialSite_s>facebook</socialSite_s>
+	</item>	<item>	<socialSite_s>instagram</socialSite_s>
 	<url_s>https://www.instagram.com/</url_s>
-	</item>	<item>	<socialSite>twitter</socialSite>
+	</item>	<item>	<socialSite_s>twitter</socialSite_s>
 	<url_s>https://twitter.com/</url_s>
-	</item>	<item>	<socialSite>pinterest</socialSite>
+	</item>	<item>	<socialSite_s>pinterest</socialSite_s>
 	<url_s>https://www.pinterest.com/</url_s>
-	</item>	<item>	<socialSite>tumblr</socialSite>
+	</item>	<item>	<socialSite_s>tumblr</socialSite_s>
 	<url_s>https://www.tumblr.com/</url_s>
-	</item>	<item>	<socialSite>youtube</socialSite>
+	</item>	<item>	<socialSite_s>youtube</socialSite_s>
 	<url_s>https://www.youtube.com/</url_s>
 	</item></socialSitesLinks>
 	<createdDate>2017-5-9T22:0:2.000Z</createdDate>

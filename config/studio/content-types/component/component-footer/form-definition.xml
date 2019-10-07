@@ -391,7 +391,7 @@
                <fields>
                   <field>
                      <type>dropdown</type>
-                     <id>socialSite</id>
+                     <id>socialSite_s</id>
                      <iceId/>
                      <title>Social Site</title>
                      <description/>

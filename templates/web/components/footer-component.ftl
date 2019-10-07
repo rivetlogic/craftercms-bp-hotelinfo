@@ -26,7 +26,7 @@
                     <#if contentModel.socialSitesLinks?? && contentModel.socialSitesLinks.item??>
                         <#list model.socialSitesLinks.item as item>
                             <a href="${item.url_s}">
-                                <i class="clickable fa fa-${item.socialSite}" ></i>
+                                <i class="clickable fa fa-${item.socialSite_s}" ></i>
                             </a>
                         </#list>
                     </#if>
