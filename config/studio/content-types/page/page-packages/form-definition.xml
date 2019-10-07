@@ -161,7 +161,7 @@
             </field>
             <field>
                <type>node-selector</type>
-               <id>packages</id>
+               <id>packages_o</id>
                <iceId>packages</iceId>
                <title>Packages</title>
                <description/>
