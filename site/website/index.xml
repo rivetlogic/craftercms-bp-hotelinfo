@@ -21,7 +21,7 @@
 	<mainRte_html>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet magna ipsum. Nulla id risus velit. In auctor leo et augue mattis varius. Vivamus aliquet risus et nisi blandit, a auctor neque commodo. Duis in libero ullamcorper, posuere nisl vitae, suscipit ligula. Sed porta est eget turpis sollicitudin interdum. Duis tincidunt sapien ex, quis aliquam elit consequat eu. Cras finibus, odio sed vestibulum scelerisque, nibh risus dictum sapien, sodales mattis libero erat ut sapien. Fusce tincidunt sit amet metus eget venenatis. In quis lectus lorem. Vestibulum venenatis dui massa, sit amet sodales nisi dignissim vel. Curabitur lacus diam, accumsan eu quam non, convallis vestibulum est. Aliquam consectetur erat lorem, ut viverra massa ultrices quis.&lt;/p&gt;
 &lt;p&gt;Integer accumsan, dolor ac blandit sagittis, tortor eros faucibus lectus, pretium imperdiet ante orci nec metus. Praesent malesuada ornare arcu, vitae posuere diam malesuada eget. Cras nec viverra massa. Nam malesuada lacus convallis ligula cursus, ac condimentum nunc posuere. Phasellus sit amet metus in sem euismod euismod. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam elementum tristique egestas. Phasellus in egestas quam, ac faucibus eros. Proin ornare purus lacinia, pellentesque purus nec, condimentum arcu. Morbi elit risus, maximus ac ex at, placerat tristique elit. Cras scelerisque mauris est, vitae faucibus purus mollis eu.&lt;/p&gt;</mainRte_html>
 	<secondRte_html>&lt;p&gt;&lt;span&gt;Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent mattis vitae elit a fermentum. Donec interdum ultricies bibendum. Praesent placerat sit amet augue imperdiet porttitor. Vivamus non sapien at felis bibendum fermentum eu vitae augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus nunc sem, feugiat sit amet interdum ut, mollis et mauris. Cras tempor non eros egestas pulvinar. Maecenas sapien nibh, ullamcorper sit amet ex vitae, sagittis scelerisque ipsum. Vestibulum luctus massa efficitur, facilisis tellus sit amet, porttitor nulla. Ut semper quis justo sed congue. Duis scelerisque massa id ligula lacinia viverra.&lt;/span&gt;&lt;/p&gt;</secondRte_html>
-	<carousels>	<item>	<key>/site/components/carousel/carousel-a.xml</key>
+	<carousels_o>	<item>	<key>/site/components/carousel/carousel-a.xml</key>
 	<value>Carousel A</value>
 	<include>/site/components/carousel/carousel-a.xml</include>
 	<disableFlattening>false</disableFlattening>
@@ -33,5 +33,5 @@
 	<value>Carousel C</value>
 	<include>/site/components/carousel/carousel-c.xml</include>
 	<disableFlattening>false</disableFlattening>
-	</item></carousels>
+	</item></carousels_o>
 </page>

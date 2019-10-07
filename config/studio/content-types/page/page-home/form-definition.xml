@@ -319,7 +319,7 @@
          <fields>
             <field>
                <type>node-selector</type>
-               <id>carousels</id>
+               <id>carousels_o</id>
                <iceId>carousels</iceId>
                <title>Carousels</title>
                <description/>

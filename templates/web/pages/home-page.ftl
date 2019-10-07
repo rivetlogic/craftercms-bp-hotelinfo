@@ -31,8 +31,8 @@
         <div class="container">
         <section <@studio.iceAttr iceGroup="carousels"/>>
             <div class="row" <@studio.componentContainerAttr target="carousels" objectId=contentModel.objectId/>>
-                <#if contentModel.carousels?? && contentModel.carousels.item??>
-                    <#list contentModel.carousels.item as carousel>
+                <#if contentModel.carousels_o?? && contentModel.carousels_o.item??>
+                    <#list contentModel.carousels_o.item as carousel>
                         <div class="col-sm-4">
                             <@renderComponent component=carousel />
                         </div>
