@@ -4,7 +4,7 @@
       </#list>
 </#macro>
 <#macro renderFooter>
-      <#list model.defaultFooter.item as footer>
+      <#list model.defaultFooter_o.item as footer>
             <@renderComponent component = footer/>
       </#list>
 </#macro>
