@@ -7,7 +7,7 @@
         	
             <div class="col-sm-5">
               <h4>${model.descriptionTitle_t!""}</h4>
-              <div>${model.description!!""}</div>
+              <div>${model.description_html!!""}</div>
             </div>
 
             <div class="col-sm-3">
