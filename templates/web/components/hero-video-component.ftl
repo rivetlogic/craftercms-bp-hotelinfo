@@ -2,7 +2,7 @@
 <article <@studio.componentAttr path=contentModel.storeUrl ice=true />>
     <!-- banner -->
     <div class="banner">  
-        <video playsinline autoplay muted loop poster="${contentModel.fallbackImage!""}" class="img-responsive video bannerVideo" id="bgvid">
+        <video playsinline autoplay muted loop poster="${contentModel.fallbackImage_s!""}" class="img-responsive video bannerVideo" id="bgvid">
             <source src="${contentModel.video_s}" type="video/mp4">
         </video>
         <div class="welcome-message">

@@ -123,7 +123,7 @@
             </field>
             <field>
                <type>image-picker</type>
-               <id>fallbackImage</id>
+               <id>fallbackImage_s</id>
                <iceId/>
                <title>Fallback Image</title>
                <description/>
