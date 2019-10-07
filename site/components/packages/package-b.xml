@@ -11,7 +11,7 @@ Pellentesque eu rutrum odio, quis elementum erat. Aliquam rutrum et ex accumsan 
 	<internal-name>Package B</internal-name>
 	<name_t>Package B</name_t>
 	<priceLabel_t>Price</priceLabel_t>
-	<price>$200.00</price>
+	<price_t>$200.00</price_t>
 	<viewDescriptionButtonLabel>Check Details</viewDescriptionButtonLabel>
 	<file-name>package-b.xml</file-name>
 	<folder-name/>

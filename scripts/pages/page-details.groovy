@@ -22,12 +22,12 @@ if (searchResult.hits.hits) {
     def result = searchResult.hits.hits[0].getSourceAsMap()
 
     templateModel.found = true
-    templateModel.name = result["name_t"]
+    templateModel.name_t = result["name_t"]
     templateModel.sizeLabel = result["sizeLabel"]
     templateModel.size = result["size"]
     templateModel.priceLabel_t = result["priceLabel_t"]
-    templateModel.price = result["price"]
-    templateModel.shortDesciption = result["shortDescription_t"]
+    templateModel.price_t = result["price_t"]
+    templateModel.shortDesciption_t = result["shortDescription_t"]
     templateModel.longDescription_t = result["longDescription_t"]
     templateModel.amenititesLabel = result["amenititesLabel"]
     templateModel.includedLabel = result["includedLabel"]

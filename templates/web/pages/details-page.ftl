@@ -61,7 +61,7 @@
                         </#if>
                     </div>
                     <div class="col-sm-3 col-md-2">
-                        <div class="size-price">${priceLabel_t!""}<span>${price!""}</span></div>
+                        <div class="size-price">${priceLabel_t!""}<span>${price_t!""}</span></div>
                     </div>
                 </div>
             </div>

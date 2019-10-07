@@ -267,7 +267,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>price</id>
+               <id>price_t</id>
                <iceId/>
                <title>price</title>
                <description/>
