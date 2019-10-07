@@ -9,7 +9,7 @@
 	</item>	<item>	<image>/static-assets/images/photos/4.jpg</image>
 	</item></images>
 	<internal-name>Carousel B</internal-name>
-	<urlTitle>Tour Packages</urlTitle>
+	<urlTitle_t>Tour Packages</urlTitle_t>
 	<url>/packages-showcase</url>
 	<file-name>carousel-b.xml</file-name>
 	<folder-name/>

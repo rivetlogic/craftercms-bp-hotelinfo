@@ -9,7 +9,7 @@
 	</item>	<item>	<image>/static-assets/images/photos/10.jpg</image>
 	</item></images>
 	<internal-name>Carousel A</internal-name>
-	<urlTitle>Rooms</urlTitle>
+	<urlTitle_t>Rooms</urlTitle_t>
 	<url>/rooms-showcase</url>
 	<file-name>carousel-a.xml</file-name>
 	<folder-name/>

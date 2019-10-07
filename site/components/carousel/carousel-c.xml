@@ -9,7 +9,7 @@
 	</item>	<item>	<image>/static-assets/images/photos/5.jpg</image>
 	</item></images>
 	<internal-name>Carousel C</internal-name>
-	<urlTitle>Gallery</urlTitle>
+	<urlTitle_t>Gallery</urlTitle_t>
 	<url>/gallery</url>
 	<file-name>carousel-c.xml</file-name>
 	<folder-name/>
