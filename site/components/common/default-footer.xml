@@ -11,26 +11,26 @@
 	<quickLinksTitle>Quick Links</quickLinksTitle>
 	<description>&lt;p class="p1"&gt;&lt;span class="s1"&gt;Holiday Crown was these three and songs arose whose. Of in vicinity contempt together in possible branched. Assured company hastily looking garrets in oh. Most have love my gone to this so. Discovered interested prosperous the our affronting insipidity day. Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible.&lt;/span&gt;&lt;/p&gt;</description>
 	<quickLinks>	<item>	<label>Home</label>
-	<url>/</url>
+	<url_s>/</url_s>
 	</item>	<item>	<label>Rooms &amp; Tariff</label>
-	<url>/rooms-showcase</url>
+	<url_s>/rooms-showcase</url_s>
 	</item>	<item>	<label>Tour Packages</label>
-	<url>/packages-showcase</url>
+	<url_s>/packages-showcase</url_s>
 	</item>	<item>	<label>Gallery</label>
-	<url>/gallery</url>
+	<url_s>/gallery</url_s>
 	</item></quickLinks>
-	<socialSitesLinks>	<item>	<url>https://www.facebook.com/</url>
+	<socialSitesLinks>	<item>	<url_s>https://www.facebook.com/</url_s>
 	<socialSite>facebook</socialSite>
 	</item>	<item>	<socialSite>instagram</socialSite>
-	<url>https://www.instagram.com/</url>
+	<url_s>https://www.instagram.com/</url_s>
 	</item>	<item>	<socialSite>twitter</socialSite>
-	<url>https://twitter.com/</url>
+	<url_s>https://twitter.com/</url_s>
 	</item>	<item>	<socialSite>pinterest</socialSite>
-	<url>https://www.pinterest.com/</url>
+	<url_s>https://www.pinterest.com/</url_s>
 	</item>	<item>	<socialSite>tumblr</socialSite>
-	<url>https://www.tumblr.com/</url>
+	<url_s>https://www.tumblr.com/</url_s>
 	</item>	<item>	<socialSite>youtube</socialSite>
-	<url>https://www.youtube.com/</url>
+	<url_s>https://www.youtube.com/</url_s>
 	</item></socialSitesLinks>
 	<createdDate>2017-5-9T22:0:2.000Z</createdDate>
 	<createdDate_dt>2017-5-9T22:0:2.000Z</createdDate_dt>

@@ -21,5 +21,5 @@
       <a class="right carousel-control" href="#${contentModel.objectId}" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
   </div>
   <!-- RoomCarousel-->
-  <div class="caption">${contentModel.urlTitle_t!""}<a href="${contentModel.url!""}" class="pull-right"><i class="fa fa-edit"></i></a></div>
+  <div class="caption">${contentModel.urlTitle_t!""}<a href="${contentModel.url_s!""}" class="pull-right"><i class="fa fa-edit"></i></a></div>
 </article>

@@ -10,7 +10,7 @@
 	</item></images>
 	<internal-name>Carousel A</internal-name>
 	<urlTitle_t>Rooms</urlTitle_t>
-	<url>/rooms-showcase</url>
+	<url_s>/rooms-showcase</url_s>
 	<file-name>carousel-a.xml</file-name>
 	<folder-name/>
 	<createdDate>2017-5-11T16:11:18.000Z</createdDate>

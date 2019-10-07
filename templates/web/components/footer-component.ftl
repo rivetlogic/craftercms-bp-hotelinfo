@@ -15,7 +15,7 @@
                 <#if contentModel.quickLinks?? && contentModel.quickLinks.item??>
                     <ul class="list-unstyled">
                         <#list model.quickLinks.item as item>
-                            <li><a href="${item.url}">${item.label}</a></li>
+                            <li><a href="${item.url_s}">${item.label}</a></li>
                         </#list>
                     </ul>
                 </#if>
@@ -25,7 +25,7 @@
                 <div class="social">
                     <#if contentModel.socialSitesLinks?? && contentModel.socialSitesLinks.item??>
                         <#list model.socialSitesLinks.item as item>
-                            <a href="${item.url}">
+                            <a href="${item.url_s}">
                                 <i class="clickable fa fa-${item.socialSite}" ></i>
                             </a>
                         </#list>

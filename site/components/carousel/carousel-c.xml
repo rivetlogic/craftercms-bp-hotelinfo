@@ -10,7 +10,7 @@
 	</item></images>
 	<internal-name>Carousel C</internal-name>
 	<urlTitle_t>Gallery</urlTitle_t>
-	<url>/gallery</url>
+	<url_s>/gallery</url_s>
 	<file-name>carousel-c.xml</file-name>
 	<folder-name/>
 	<createdDate>2017-5-11T16:15:39.000Z</createdDate>

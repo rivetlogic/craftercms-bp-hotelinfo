@@ -10,7 +10,7 @@
 	</item></images>
 	<internal-name>Carousel B</internal-name>
 	<urlTitle_t>Tour Packages</urlTitle_t>
-	<url>/packages-showcase</url>
+	<url_s>/packages-showcase</url_s>
 	<file-name>carousel-b.xml</file-name>
 	<folder-name/>
 	<createdDate>2017-5-11T16:12:28.000Z</createdDate>
