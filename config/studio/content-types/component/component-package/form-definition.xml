@@ -353,7 +353,7 @@
             </field>
             <field>
                <type>repeat</type>
-               <id>include</id>
+               <id>include_o</id>
                <iceId/>
                <title>Included</title>
                <description/>

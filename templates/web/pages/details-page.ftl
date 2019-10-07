@@ -46,10 +46,10 @@
                                 </#list>
                             </ul>
                         </#if>
-                        <#if include??>
+                        <#if include_o??>
                             <h3>${includedLabel_t!""}</h3>
                             <ul>
-                                <#list include as include>
+                                <#list include_o as include>
                                     <li>${include!""}</li>
                                 </#list>
                             </ul>

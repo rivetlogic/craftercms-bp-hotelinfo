@@ -51,12 +51,12 @@ if (searchResult.hits.hits) {
     }
 
 
-    def include = result["include.item.item"]
-    if (include instanceof String) {
+    def include_o = result["include_o.item.item"]
+    if (include_o instanceof String) {
         def includes = []
-        includes.add(include)
-        templateModel.include = includes
+        includes.add(include_o)
+        templateModel.include_o = includes
     } else {
-        templateModel.include = include
+        templateModel.include_o = include_o
     }
 } 
