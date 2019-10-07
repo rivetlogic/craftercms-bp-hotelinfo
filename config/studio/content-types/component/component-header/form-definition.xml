@@ -95,7 +95,7 @@
          <fields>
             <field>
                <type>image-picker</type>
-               <id>headerImage</id>
+               <id>headerImage_s</id>
                <iceId/>
                <title>Header Image</title>
                <description/>

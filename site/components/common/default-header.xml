@@ -8,7 +8,7 @@
 	<folder-name/>
 	<internal-name>Default Header</internal-name>
 	<title>Holiday Crown</title>
-	<headerImage>/static-assets/images/logo.png</headerImage>
+	<headerImage_s>/static-assets/images/logo.png</headerImage_s>
 	<createdDate>2017-5-9T21:57:31.000Z</createdDate>
 	<createdDate_dt>2017-5-9T21:57:31.000Z</createdDate_dt>
 	<lastModifiedDate>2017-6-16T20:43:40.000Z</lastModifiedDate>
