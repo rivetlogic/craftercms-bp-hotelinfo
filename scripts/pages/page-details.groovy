@@ -41,7 +41,7 @@ if (searchResult.hits.hits) {
         templateModel.photos_o = photos_o
     }
 
-    def amenitites_o = result["amenitites_o.item.text"]
+    def amenitites_o = result["amenitites_o.item.text_t"]
     if (amenitites_o instanceof String) {
         def amenititesArr = []
         amenititesArr.add(amenitites_o)

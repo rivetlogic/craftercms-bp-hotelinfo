@@ -460,7 +460,7 @@
                <fields>
                   <field>
                      <type>input</type>
-                     <id>text</id>
+                     <id>text_t</id>
                      <iceId/>
                      <title>Text</title>
                      <description/>
