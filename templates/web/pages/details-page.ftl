@@ -37,11 +37,11 @@
                         <p>${shortDescription_t!""}</p>
                         <p>${longDescription_t!""}</p>
                     </div>
-                    <div class="col-sm-6 col-md-3 amenitites">
-                        <#if amenitites??>
+                    <div class="col-sm-6 col-md-3 amenitites_o">
+                        <#if amenitites_o??>
                             <h3>${amenititesLabel_t!""}</h3>
                             <ul>
-                                <#list amenitites as amenitite>
+                                <#list amenitites_o as amenitite>
                                     <li>${amenitite!""}</li>
                                 </#list>
                             </ul>

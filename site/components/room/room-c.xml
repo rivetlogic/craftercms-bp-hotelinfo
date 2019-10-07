@@ -17,11 +17,11 @@
 	<longDescription_t>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique dolor in diam auctor, vitae condimentum ante dignissim. Aliquam in iaculis dui, vitae tincidunt dolor. Proin cursus mattis est eget fermentum. Vivamus quis malesuada orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus pharetra sapien, at vehicula velit malesuada vitae. Sed in venenatis elit, nec lobortis magna. Donec vestibulum vulputate sem, vitae dignissim arcu ultricies ac. Vestibulum vel fermentum sapien. Aliquam egestas arcu quis iaculis vestibulum.
 
 Pellentesque eu rutrum odio, quis elementum erat. Aliquam rutrum et ex accumsan dignissim. Duis sagittis diam et gravida volutpat. Nulla fermentum vulputate justo, auctor fringilla erat faucibus id. Suspendisse pulvinar hendrerit suscipit. Mauris molestie, leo facilisis ullamcorper interdum, ex urna condimentum risus, vitae sollicitudin tortor ipsum non ante. Vestibulum dapibus eros blandit eleifend scelerisque. Phasellus condimentum eros ut consequat faucibus. Donec dignissim tempor eros hendrerit sagittis. Sed lacinia molestie justo, non mattis urna. Fusce rhoncus, lectus eu faucibus porta, mi risus malesuada ex, vel imperdiet orci nulla vel massa. Curabitur dignissim id ante vitae auctor. Aenean massa erat, consequat id luctus ac, maximus quis nibh.</longDescription_t>
-	<amenitites>	<item>	<text>One of the greatest barriers to making the sale is</text>
+	<amenitites_o>	<item>	<text>One of the greatest barriers to making the sale is</text>
 	</item>	<item>	<text>Principle to work to make more money while having </text>
 	</item>	<item>	<text>Unlucky people. Don't stubbornly.</text>
 	</item>	<item>	<text>Principle to work to make more money while having </text>
-	</item></amenitites>
+	</item></amenitites_o>
 	<photos_o>	<item>	<photo_s>/static-assets/images/photos/11.jpg</photo_s>
 	</item>	<item>	<photo_s>/static-assets/images/photos/7.jpg</photo_s>
 	</item>	<item>	<photo_s>/static-assets/images/photos/9.jpg</photo_s>
