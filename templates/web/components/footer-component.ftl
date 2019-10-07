@@ -15,7 +15,7 @@
                 <#if contentModel.quickLinks_o?? && contentModel.quickLinks_o.item??>
                     <ul class="list-unstyled">
                         <#list model.quickLinks_o.item as item>
-                            <li><a href="${item.url_s}">${item.label}</a></li>
+                            <li><a href="${item.url_s}">${item.label_t}</a></li>
                         </#list>
                     </ul>
                 </#if>
