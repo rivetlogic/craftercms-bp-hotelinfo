@@ -51,7 +51,7 @@ if (searchResult.hits.hits) {
     }
 
 
-    def include_o = result["include_o.item.item"]
+    def include_o = result["include_o.item.item_t"]
     if (include_o instanceof String) {
         def includes = []
         includes.add(include_o)

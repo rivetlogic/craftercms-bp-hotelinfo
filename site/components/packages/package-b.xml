@@ -15,9 +15,9 @@ Pellentesque eu rutrum odio, quis elementum erat. Aliquam rutrum et ex accumsan 
 	<viewDescriptionButtonLabel>Check Details</viewDescriptionButtonLabel>
 	<file-name>package-b.xml</file-name>
 	<folder-name/>
-	<include_o>	<item>	<item>Item A</item>
-	</item>	<item>	<item>Item B</item>
-	</item>	<item>	<item>item C</item>
+	<include_o>	<item>	<item_t>Item A</item_t>
+	</item>	<item>	<item_t>Item B</item_t>
+	</item>	<item>	<item_t>item C</item_t>
 	</item></include_o>
 	<photos>	<item>	<photo>/static-assets/images/photos/1.jpg</photo>
 	</item>	<item>	<photo>/static-assets/images/photos/4.jpg</photo>
