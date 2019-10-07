@@ -11,7 +11,7 @@
             </div>
 
             <div class="col-sm-3">
-                <h4>${model.quickLinksTitle!""}</h4>
+                <h4>${model.quickLinksTitle_t!""}</h4>
                 <#if contentModel.quickLinks?? && contentModel.quickLinks.item??>
                     <ul class="list-unstyled">
                         <#list model.quickLinks.item as item>

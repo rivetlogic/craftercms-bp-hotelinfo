@@ -211,7 +211,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>quickLinksTitle</id>
+               <id>quickLinksTitle_t</id>
                <iceId/>
                <title>Quick Links Title</title>
                <description/>
