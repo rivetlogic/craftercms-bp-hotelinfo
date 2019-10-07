@@ -3,8 +3,8 @@
 <#import "/templates/system/common/craftercms-common.ftl" as crafterCommon/>
 <@layout.default>
     <section <@studio.iceAttr iceGroup="hero-video"/>>
-        <#if contentModel.heroVideo?? && contentModel.heroVideo.item??>
-            <#list contentModel.heroVideo.item as heroVideo>
+        <#if contentModel.heroVideo_o?? && contentModel.heroVideo_o.item??>
+            <#list contentModel.heroVideo_o.item as heroVideo>
                 <@renderComponent component=heroVideo />
             </#list>
         </#if>

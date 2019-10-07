@@ -118,7 +118,7 @@
          <fields>
             <field>
                <type>node-selector</type>
-               <id>heroVideo</id>
+               <id>heroVideo_o</id>
                <iceId>hero-video</iceId>
                <title>Hero Video</title>
                <description/>
