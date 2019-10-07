@@ -66,7 +66,7 @@
                 </div>
             </div>
         <#else>
-            <h1 class="title">${contentModel.contentNotFoundLabel!""}</h1>
+            <h1 class="title">${contentModel.contentNotFoundLabel_t!""}</h1>
         </#if>
     </div>
 </@layout.default>

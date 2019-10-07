@@ -161,7 +161,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>contentNotFoundLabel</id>
+               <id>contentNotFoundLabel_t</id>
                <iceId/>
                <title>Content Not Found Label</title>
                <description/>
