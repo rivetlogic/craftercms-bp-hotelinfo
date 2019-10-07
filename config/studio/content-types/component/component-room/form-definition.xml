@@ -224,7 +224,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>sizeLabel</id>
+               <id>sizeLabel_t</id>
                <iceId/>
                <title>Size Label</title>
                <description/>

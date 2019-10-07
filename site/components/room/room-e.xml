@@ -8,7 +8,7 @@
 	<folder-name/>
 	<internal-name>Room E</internal-name>
 	<name_t>Room E</name_t>
-	<sizeLabel>Size</sizeLabel>
+	<sizeLabel_t>Size</sizeLabel_t>
 	<size>44 sq</size>
 	<priceLabel_t>Price</priceLabel_t>
 	<price_t>$200.00</price_t>

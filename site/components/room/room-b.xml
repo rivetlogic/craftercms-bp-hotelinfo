@@ -6,7 +6,7 @@
 	<objectId>dce4f057-58b1-799f-75f2-7f04047afe61</objectId>
 	<internal-name>Room B</internal-name>
 	<name_t>Room B</name_t>
-	<sizeLabel>Size</sizeLabel>
+	<sizeLabel_t>Size</sizeLabel_t>
 	<size>44 sq</size>
 	<priceLabel_t>Price</priceLabel_t>
 	<price_t>$200.00</price_t>

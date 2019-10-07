@@ -23,7 +23,7 @@ if (searchResult.hits.hits) {
 
     templateModel.found = true
     templateModel.name_t = result["name_t"]
-    templateModel.sizeLabel = result["sizeLabel"]
+    templateModel.sizeLabel_t = result["sizeLabel_t"]
     templateModel.size = result["size"]
     templateModel.priceLabel_t = result["priceLabel_t"]
     templateModel.price_t = result["price_t"]
