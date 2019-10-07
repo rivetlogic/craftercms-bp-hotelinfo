@@ -10,25 +10,25 @@
 	<title_t>Gallery</title_t>
 	<placeInNav>true</placeInNav>
 	<orderDefault_f>4000</orderDefault_f>
-	<images_o>	<item>	<imageTitle>Foods</imageTitle>
+	<images_o>	<item>	<imageTitle_t>Foods</imageTitle_t>
 	<image_s>/static-assets/images/photos/1.jpg</image_s>
-	</item>	<item>	<imageTitle>Coffee</imageTitle>
+	</item>	<item>	<imageTitle_t>Coffee</imageTitle_t>
 	<image_s>/static-assets/images/photos/2.jpg</image_s>
-	</item>	<item>	<imageTitle>Travel</imageTitle>
+	</item>	<item>	<imageTitle_t>Travel</imageTitle_t>
 	<image_s>/static-assets/images/photos/3.jpg</image_s>
-	</item>	<item>	<imageTitle>Adventure</imageTitle>
+	</item>	<item>	<imageTitle_t>Adventure</imageTitle_t>
 	<image_s>/static-assets/images/photos/4.jpg</image_s>
-	</item>	<item>	<imageTitle>Fruits</imageTitle>
+	</item>	<item>	<imageTitle_t>Fruits</imageTitle_t>
 	<image_s>/static-assets/images/photos/5.jpg</image_s>
-	</item>	<item>	<imageTitle>Summer</imageTitle>
+	</item>	<item>	<imageTitle_t>Summer</imageTitle_t>
 	<image_s>/static-assets/images/photos/6.jpg</image_s>
-	</item>	<item>	<imageTitle>Bathroom</imageTitle>
+	</item>	<item>	<imageTitle_t>Bathroom</imageTitle_t>
 	<image_s>/static-assets/images/photos/7.jpg</image_s>
-	</item>	<item>	<imageTitle>Rooms</imageTitle>
+	</item>	<item>	<imageTitle_t>Rooms</imageTitle_t>
 	<image_s>/static-assets/images/photos/8.jpg</image_s>
-	</item>	<item>	<imageTitle>Big Room</imageTitle>
+	</item>	<item>	<imageTitle_t>Big Room</imageTitle_t>
 	<image_s>/static-assets/images/photos/9.jpg</image_s>
-	</item>	<item>	<imageTitle>Living Room</imageTitle>
+	</item>	<item>	<imageTitle_t>Living Room</imageTitle_t>
 	<image_s>/static-assets/images/photos/11.jpg</image_s>
 	</item></images_o>
 	<createdDate>2017-5-15T16:54:46.000Z</createdDate>
