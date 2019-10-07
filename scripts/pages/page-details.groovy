@@ -30,7 +30,7 @@ if (searchResult.hits.hits) {
     templateModel.shortDesciption_t = result["shortDescription_t"]
     templateModel.longDescription_t = result["longDescription_t"]
     templateModel.amenititesLabel = result["amenititesLabel"]
-    templateModel.includedLabel = result["includedLabel"]
+    templateModel.includedLabel_t = result["includedLabel_t"]
     def photos = result["photos.item.photo"]
     
     if (photos instanceof String) {

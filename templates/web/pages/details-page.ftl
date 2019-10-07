@@ -47,7 +47,7 @@
                             </ul>
                         </#if>
                         <#if include??>
-                            <h3>${includedLabel!""}</h3>
+                            <h3>${includedLabel_t!""}</h3>
                             <ul>
                                 <#list include as include>
                                     <li>${include!""}</li>

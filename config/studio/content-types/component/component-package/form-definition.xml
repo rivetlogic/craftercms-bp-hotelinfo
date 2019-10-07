@@ -310,7 +310,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>includedLabel</id>
+               <id>includedLabel_t</id>
                <iceId/>
                <title>Included Label</title>
                <description/>
