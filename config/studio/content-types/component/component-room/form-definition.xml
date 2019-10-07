@@ -138,7 +138,7 @@
             </field>
             <field>
                <type>textarea</type>
-               <id>shortDesciption</id>
+               <id>shortDescription_t</id>
                <iceId/>
                <title>Short Desciption</title>
                <description/>

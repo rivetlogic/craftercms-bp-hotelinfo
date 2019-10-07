@@ -15,7 +15,7 @@ if (solrResults.response.documents.size > 0) {
     templateModel.size = solrResult["size"]
     templateModel.priceLabel = solrResult["priceLabel"]
     templateModel.price = solrResult["price"]
-    templateModel.shortDesciption = solrResult["shortDesciption"]
+    templateModel.shortDesciption_t = solrResult["shortDescription_t"]
     templateModel.longDescription = solrResult["longDescription"]
     templateModel.amenititesLabel = solrResult["amenititesLabel"]
     templateModel.includedLabel = solrResult["includedLabel"]

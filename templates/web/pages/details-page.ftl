@@ -34,7 +34,7 @@
             <div class="room-features spacer">
                 <div class="row">
                     <div class="col-sm-12 col-md-5">
-                        <p>${shortDesciption!""}</p>
+                        <p>${shortDescription_t!""}</p>
                         <p>${longDescription!""}</p>
                     </div>
                     <div class="col-sm-6 col-md-3 amenitites">
