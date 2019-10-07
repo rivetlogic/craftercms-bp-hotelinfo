@@ -239,7 +239,7 @@
             </field>
             <field>
                <type>rte</type>
-               <id>secondRte</id>
+               <id>secondRte_html</id>
                <iceId>secondRte</iceId>
                <title>Second Rte</title>
                <description/>
