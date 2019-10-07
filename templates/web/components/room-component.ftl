@@ -8,7 +8,7 @@
                 <#assign first = true>
                 <#list contentModel.photos_o.item as image>
                     <#if first>
-                        <img src="${image.photo}" class="detail-image img-responsive">
+                        <img src="${image.photo_s}" class="detail-image img-responsive">
                         <#assign first = false>
                       </#if>
                 </#list>

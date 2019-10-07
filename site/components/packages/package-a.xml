@@ -21,9 +21,9 @@
 Pellentesque eu rutrum odio, quis elementum erat. Aliquam rutrum et ex accumsan dignissim. Duis sagittis diam et gravida volutpat. Nulla fermentum vulputate justo, auctor fringilla erat faucibus id. Suspendisse pulvinar hendrerit suscipit. Mauris molestie, leo facilisis ullamcorper interdum, ex urna condimentum risus, vitae sollicitudin tortor ipsum non ante. Vestibulum dapibus eros blandit eleifend scelerisque. Phasellus condimentum eros ut consequat faucibus. Donec dignissim tempor eros hendrerit sagittis. Sed lacinia molestie justo, non mattis urna. Fusce rhoncus, lectus eu faucibus porta, mi risus malesuada ex, vel imperdiet orci nulla vel massa. Curabitur dignissim id ante vitae auctor. Aenean massa erat, consequat id luctus ac, maximus quis nibh.</longDescription_t>
 	<include_o>	<item>	<item_t>Item A</item_t>
 	</item></include_o>
-	<photos_o>	<item>	<photo>/static-assets/images/photos/6.jpg</photo>
-	</item>	<item>	<photo>/static-assets/images/photos/1.jpg</photo>
-	</item>	<item>	<photo>/static-assets/images/photos/11.jpg</photo>
+	<photos_o>	<item>	<photo_s>/static-assets/images/photos/6.jpg</photo_s>
+	</item>	<item>	<photo_s>/static-assets/images/photos/1.jpg</photo_s>
+	</item>	<item>	<photo_s>/static-assets/images/photos/11.jpg</photo_s>
 	</item></photos_o>
 	<includedLabel_t>Included</includedLabel_t>
 	<detailsUrl_s>/packages-showcase/package-detail</detailsUrl_s>

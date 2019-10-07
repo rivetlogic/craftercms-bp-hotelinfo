@@ -17,9 +17,9 @@
 Phasellus sagittis sapien sed viverra fermentum. Cras nisl sapien, accumsan mollis nulla nec, pulvinar varius sem. Suspendisse condimentum suscipit eleifend. Aenean magna magna, aliquam et imperdiet eget, tincidunt eu ipsum. Fusce rutrum non sem quis mattis. Praesent tincidunt, metus sit amet aliquet vehicula, metus lacus accumsan tortor, et dictum ligula justo non lacus. Phasellus dictum lacinia ligula, sed porta turpis varius id. Nam tempus molestie suscipit. Nulla mollis, lorem ultricies volutpat hendrerit, lacus ligula facilisis nunc, vitae lacinia neque eros sodales libero. Integer tincidunt nisi mauris, a volutpat quam luctus ac. Ut suscipit purus at ultrices congue. Etiam dictum ut dui eget maximus. Donec nec suscipit erat.</longDescription_t>
 	<file-name>room-a.xml</file-name>
 	<folder-name/>
-	<photos_o>	<item>	<photo>/static-assets/images/photos/8.jpg</photo>
-	</item>	<item>	<photo>/static-assets/images/photos/9.jpg</photo>
-	</item>	<item>	<photo>/static-assets/images/photos/11.jpg</photo>
+	<photos_o>	<item>	<photo_s>/static-assets/images/photos/8.jpg</photo_s>
+	</item>	<item>	<photo_s>/static-assets/images/photos/9.jpg</photo_s>
+	</item>	<item>	<photo_s>/static-assets/images/photos/11.jpg</photo_s>
 	</item></photos_o>
 	<createdDate>2017-5-12T2:32:59.000Z</createdDate>
 	<createdDate_dt>2017-5-12T2:32:59.000Z</createdDate_dt>

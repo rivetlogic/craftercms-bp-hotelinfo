@@ -533,7 +533,7 @@
                <fields>
                   <field>
                      <type>image-picker</type>
-                     <id>photo</id>
+                     <id>photo_s</id>
                      <iceId/>
                      <title>Photo</title>
                      <description>The recommended aspect ratio for the image is 3:2</description>
