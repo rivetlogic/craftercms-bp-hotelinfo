@@ -10,9 +10,9 @@
             
             <div id="RoomDetails" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                    <#if photos??>
+                    <#if photos_o??>
                         <#assign first = true>
-                        <#list photos as photo>
+                        <#list photos_o as photo>
                             <#if first>
                                 <div class="item active carrousel-big-image">
                                     <img src="${photo!""}" class="carrousel-big-image img-responsive" alt="slide">

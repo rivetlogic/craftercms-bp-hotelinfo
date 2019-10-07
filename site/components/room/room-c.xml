@@ -22,10 +22,10 @@ Pellentesque eu rutrum odio, quis elementum erat. Aliquam rutrum et ex accumsan 
 	</item>	<item>	<text>Unlucky people. Don't stubbornly.</text>
 	</item>	<item>	<text>Principle to work to make more money while having </text>
 	</item></amenitites>
-	<photos>	<item>	<photo>/static-assets/images/photos/11.jpg</photo>
+	<photos_o>	<item>	<photo>/static-assets/images/photos/11.jpg</photo>
 	</item>	<item>	<photo>/static-assets/images/photos/7.jpg</photo>
 	</item>	<item>	<photo>/static-assets/images/photos/9.jpg</photo>
-	</item></photos>
+	</item></photos_o>
 	<createdDate>2017-5-12T14:55:26.000Z</createdDate>
 	<createdDate_dt>2017-5-12T14:55:26.000Z</createdDate_dt>
 	<lastModifiedDate>2017-6-16T16:48:53.000Z</lastModifiedDate>

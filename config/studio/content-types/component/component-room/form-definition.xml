@@ -598,7 +598,7 @@
          <fields>
             <field>
                <type>repeat</type>
-               <id>photos</id>
+               <id>photos_o</id>
                <iceId>photos</iceId>
                <title>Photos</title>
                <description/>

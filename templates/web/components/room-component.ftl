@@ -4,9 +4,9 @@
 <article>
     <div class="col-sm-6 wowload fadeInUp" <@studio.componentAttr path=contentModel.storeUrl ice=true />>
         <div class="rooms">
-            <#if contentModel.photos?? && contentModel.photos.item??>
+            <#if contentModel.photos_o?? && contentModel.photos_o.item??>
                 <#assign first = true>
-                <#list contentModel.photos.item as image>
+                <#list contentModel.photos_o.item as image>
                     <#if first>
                         <img src="${image.photo}" class="detail-image img-responsive">
                         <#assign first = false>

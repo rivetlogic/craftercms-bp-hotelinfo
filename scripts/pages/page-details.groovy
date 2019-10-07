@@ -31,14 +31,14 @@ if (searchResult.hits.hits) {
     templateModel.longDescription_t = result["longDescription_t"]
     templateModel.amenititesLabel = result["amenititesLabel"]
     templateModel.includedLabel_t = result["includedLabel_t"]
-    def photos = result["photos.item.photo"]
+    def photos_o = result["photos_o.item.photo"]
     
-    if (photos instanceof String) {
+    if (photos_o instanceof String) {
         def photosArr = []
-        photosArr.add(photos)
-        templateModel.photos = photosArr
+        photosArr.add(photos_o)
+        templateModel.photos_o = photosArr
     } else {
-        templateModel.photos = photos
+        templateModel.photos_o = photos_o
     }
 
     def amenitites = result["amenitites.item.text"]

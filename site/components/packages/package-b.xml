@@ -19,9 +19,9 @@ Pellentesque eu rutrum odio, quis elementum erat. Aliquam rutrum et ex accumsan 
 	</item>	<item>	<item_t>Item B</item_t>
 	</item>	<item>	<item_t>item C</item_t>
 	</item></include_o>
-	<photos>	<item>	<photo>/static-assets/images/photos/1.jpg</photo>
+	<photos_o>	<item>	<photo>/static-assets/images/photos/1.jpg</photo>
 	</item>	<item>	<photo>/static-assets/images/photos/4.jpg</photo>
-	</item></photos>
+	</item></photos_o>
 	<createdDate>2017-5-12T16:24:51.000Z</createdDate>
 	<createdDate_dt>2017-5-12T16:24:51.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-12T21:25:37.000Z</lastModifiedDate>

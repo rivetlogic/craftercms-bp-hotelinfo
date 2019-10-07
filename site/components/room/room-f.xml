@@ -19,10 +19,10 @@
 Pellentesque eu rutrum odio, quis elementum erat. Aliquam rutrum et ex accumsan dignissim. Duis sagittis diam et gravida volutpat. Nulla fermentum vulputate justo, auctor fringilla erat faucibus id. Suspendisse pulvinar hendrerit suscipit. Mauris molestie, leo facilisis ullamcorper interdum, ex urna condimentum risus, vitae sollicitudin tortor ipsum non ante. Vestibulum dapibus eros blandit eleifend scelerisque. Phasellus condimentum eros ut consequat faucibus. Donec dignissim tempor eros hendrerit sagittis. Sed lacinia molestie justo, non mattis urna. Fusce rhoncus, lectus eu faucibus porta, mi risus malesuada ex, vel imperdiet orci nulla vel massa. Curabitur dignissim id ante vitae auctor. Aenean massa erat, consequat id luctus ac, maximus quis nibh.</longDescription_t>
 	<amenitites>	<item>	<text>One of the greatest barriers to making the sale is your prospect.</text>
 	</item></amenitites>
-	<photos>	<item>	<photo>/static-assets/images/photos/10.jpg</photo>
+	<photos_o>	<item>	<photo>/static-assets/images/photos/10.jpg</photo>
 	</item>	<item>	<photo>/static-assets/images/photos/1.jpg</photo>
 	</item>	<item>	<photo>/static-assets/images/photos/11.jpg</photo>
-	</item></photos>
+	</item></photos_o>
 	<createdDate>2017-5-12T15:15:34.000Z</createdDate>
 	<createdDate_dt>2017-5-12T15:15:34.000Z</createdDate_dt>
 	<lastModifiedDate>2017-6-27T20:39:0.000Z</lastModifiedDate>
