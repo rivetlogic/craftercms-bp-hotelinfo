@@ -7,8 +7,8 @@
     	<h2>${contentModel.title_t!""}</h2>
         <div <@studio.iceAttr iceGroup="rooms"/>>
         	<div <@studio.componentContainerAttr target="rooms" objectId=contentModel.objectId/>>
-            	<#if contentModel.rooms?? && contentModel.rooms.item??>
-                    <#list contentModel.rooms.item as item>
+            	<#if contentModel.rooms_o?? && contentModel.rooms_o.item??>
+                    <#list contentModel.rooms_o.item as item>
                         <div>
                             <@renderComponent component=item />
                         </div>
