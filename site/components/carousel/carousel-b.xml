@@ -4,9 +4,9 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>4be7</objectGroupId>
 	<objectId>4be7b131-7549-4e14-9585-c7f23704083d</objectId>
-	<images_o>	<item>	<image>/static-assets/images/photos/6.jpg</image>
-	</item>	<item>	<image>/static-assets/images/photos/3.jpg</image>
-	</item>	<item>	<image>/static-assets/images/photos/4.jpg</image>
+	<images_o>	<item>	<image_s>/static-assets/images/photos/6.jpg</image_s>
+	</item>	<item>	<image_s>/static-assets/images/photos/3.jpg</image_s>
+	</item>	<item>	<image_s>/static-assets/images/photos/4.jpg</image_s>
 	</item></images_o>
 	<internal-name>Carousel B</internal-name>
 	<urlTitle_t>Tour Packages</urlTitle_t>

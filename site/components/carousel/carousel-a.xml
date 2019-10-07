@@ -4,9 +4,9 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>8782</objectGroupId>
 	<objectId>878245e9-9157-8e1c-80f4-f8a5b1fe33ba</objectId>
-	<images_o>	<item>	<image>/static-assets/images/photos/8.jpg</image>
-	</item>	<item>	<image>/static-assets/images/photos/9.jpg</image>
-	</item>	<item>	<image>/static-assets/images/photos/10.jpg</image>
+	<images_o>	<item>	<image_s>/static-assets/images/photos/8.jpg</image_s>
+	</item>	<item>	<image_s>/static-assets/images/photos/9.jpg</image_s>
+	</item>	<item>	<image_s>/static-assets/images/photos/10.jpg</image_s>
 	</item></images_o>
 	<internal-name>Carousel A</internal-name>
 	<urlTitle_t>Rooms</urlTitle_t>

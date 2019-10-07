@@ -202,7 +202,7 @@
                <fields>
                   <field>
                      <type>image-picker</type>
-                     <id>image</id>
+                     <id>image_s</id>
                      <iceId/>
                      <title>Image</title>
                      <description/>

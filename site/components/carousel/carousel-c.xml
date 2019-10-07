@@ -4,9 +4,9 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>4d10</objectGroupId>
 	<objectId>4d10b011-a5fe-3306-e3bf-395eec6a8088</objectId>
-	<images_o>	<item>	<image>/static-assets/images/photos/1.jpg</image>
-	</item>	<item>	<image>/static-assets/images/photos/2.jpg</image>
-	</item>	<item>	<image>/static-assets/images/photos/5.jpg</image>
+	<images_o>	<item>	<image_s>/static-assets/images/photos/1.jpg</image_s>
+	</item>	<item>	<image_s>/static-assets/images/photos/2.jpg</image_s>
+	</item>	<item>	<image_s>/static-assets/images/photos/5.jpg</image_s>
 	</item></images_o>
 	<internal-name>Carousel C</internal-name>
 	<urlTitle_t>Gallery</urlTitle_t>

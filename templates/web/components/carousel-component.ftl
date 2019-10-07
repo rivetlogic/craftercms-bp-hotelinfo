@@ -8,10 +8,10 @@
           <#assign first = true>
           <#list contentModel.images_o.item as image>
             <#if first>
-              <div class="item active"><img src="${image.image!""}" class="img-responsive" alt="slide"></div>
+              <div class="item active"><img src="${image.image_s!""}" class="img-responsive" alt="slide"></div>
               <#assign first = false>
             <#else>
-              <div class="item height-full"><img src="${image.image!""}"  class="img-responsive" alt="slide"></div>
+              <div class="item height-full"><img src="${image.image_s!""}"  class="img-responsive" alt="slide"></div>
             </#if>
           </#list>
         </#if>

@@ -10,8 +10,8 @@
             <#if contentModel.images_o?? && contentModel.images_o.item??>
                 <#list contentModel.images_o.item as image>
                     <div class="col-sm-4 wowload fadeInUp">
-                        <a href="${image.image!""}" title="${image.imageTitle!""}" class="gallery-image" data-gallery>
-                            <img src="${image.image!""}" class="img-responsive">
+                        <a href="${image.image_s!""}" title="${image.imageTitle!""}" class="gallery-image" data-gallery>
+                            <img src="${image.image_s!""}" class="img-responsive">
                         </a>
                     </div>
                 </#list>
