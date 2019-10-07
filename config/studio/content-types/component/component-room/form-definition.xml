@@ -396,7 +396,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>amenititesLabel</id>
+               <id>amenititesLabel_t</id>
                <iceId/>
                <title>Amenities Label</title>
                <description/>

@@ -29,7 +29,7 @@ if (searchResult.hits.hits) {
     templateModel.price_t = result["price_t"]
     templateModel.shortDesciption_t = result["shortDescription_t"]
     templateModel.longDescription_t = result["longDescription_t"]
-    templateModel.amenititesLabel = result["amenititesLabel"]
+    templateModel.amenititesLabel_t = result["amenititesLabel_t"]
     templateModel.includedLabel_t = result["includedLabel_t"]
     def photos_o = result["photos_o.item.photo_s"]
     

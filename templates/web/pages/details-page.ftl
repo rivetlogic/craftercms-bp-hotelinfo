@@ -39,7 +39,7 @@
                     </div>
                     <div class="col-sm-6 col-md-3 amenitites">
                         <#if amenitites??>
-                            <h3>${amenititesLabel!""}</h3>
+                            <h3>${amenititesLabel_t!""}</h3>
                             <ul>
                                 <#list amenitites as amenitite>
                                     <li>${amenitite!""}</li>
