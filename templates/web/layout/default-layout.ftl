@@ -65,7 +65,7 @@
 
         <a href="#home" class="toTop scroll"><i class="fa fa-angle-up"></i></a>
 
-        <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+        <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body_html -->
         <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
             <!-- The container for the modal slides -->
             <div class="slides"></div>
