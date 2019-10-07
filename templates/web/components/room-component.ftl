@@ -16,7 +16,7 @@
             <div class="info">
                 <h3>${contentModel.name_t!""}</h3>
                 <p>${contentModel.shortDescription_t!""}</p>
-                <a href="<@utils.appendIdlUrl contentModel.detailsUrl contentModel.objectId />" class="btn btn-default">${contentModel.viewDescriptionButtonLabel!""}</a>
+                <a href="<@utils.appendIdlUrl contentModel.detailsUrl contentModel.objectId />" class="btn btn-default">${contentModel.viewDescriptionButtonLabel_t!""}</a>
             </div>
         </div>
     </div>

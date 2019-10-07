@@ -505,7 +505,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>viewDescriptionButtonLabel</id>
+               <id>viewDescriptionButtonLabel_t</id>
                <iceId/>
                <title>View Description Button Label</title>
                <description/>
