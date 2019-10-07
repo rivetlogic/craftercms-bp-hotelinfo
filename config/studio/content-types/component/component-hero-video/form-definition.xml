@@ -95,7 +95,7 @@
          <fields>
             <field>
                <type>video-picker</type>
-               <id>video</id>
+               <id>video_s</id>
                <iceId/>
                <title>Video</title>
                <description/>

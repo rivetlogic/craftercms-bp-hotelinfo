@@ -9,7 +9,7 @@
 	<internal-name>Default Hero Video</internal-name>
 	<title_t>Best hotel in Dubai</title_t>
 	<subTitle>Most luxurious hotel of asia with the royal treatments and excellent customer service.</subTitle>
-	<video>/static-assets/videos/690424100.mp4</video>
+	<video_s>/static-assets/videos/690424100.mp4</video_s>
 	<fallbackImage>/static-assets/images/photos/banner.jpg</fallbackImage>
 	<createdDate>2017-5-11T16:18:7.000Z</createdDate>
 	<createdDate_dt>2017-5-11T16:18:7.000Z</createdDate_dt>

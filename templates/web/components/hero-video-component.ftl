@@ -3,7 +3,7 @@
     <!-- banner -->
     <div class="banner">  
         <video playsinline autoplay muted loop poster="${contentModel.fallbackImage!""}" class="img-responsive video bannerVideo" id="bgvid">
-            <source src="${contentModel.video}" type="video/mp4">
+            <source src="${contentModel.video_s}" type="video/mp4">
         </video>
         <div class="welcome-message">
             <div class="wrap-info">
