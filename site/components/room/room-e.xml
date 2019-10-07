@@ -9,7 +9,7 @@
 	<internal-name>Room E</internal-name>
 	<name_t>Room E</name_t>
 	<sizeLabel_t>Size</sizeLabel_t>
-	<size>44 sq</size>
+	<size_t>44 sq</size_t>
 	<priceLabel_t>Price</priceLabel_t>
 	<price_t>$200.00</price_t>
 	<viewDescriptionButtonLabel_t>Check Details</viewDescriptionButtonLabel_t>
