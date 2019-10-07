@@ -166,7 +166,7 @@
             </field>
             <field>
                <type>rte</type>
-               <id>mainRte</id>
+               <id>mainRte_html</id>
                <iceId>mainRte</iceId>
                <title>Main Rte</title>
                <description/>

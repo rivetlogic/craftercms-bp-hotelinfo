@@ -14,7 +14,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    ${contentModel.mainRte!""}
+                    ${contentModel.mainRte_html!""}
                 </div>
                 <div class="col-md-4" <@studio.iceAttr iceGroup="secondRte"/>>
                     ${contentModel.secondRte!""}
