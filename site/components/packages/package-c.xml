@@ -5,7 +5,7 @@
 	<objectGroupId>cafe</objectGroupId>
 	<objectId>cafe77c9-c9d5-5b58-51f3-2708397c5f0f</objectId>
 	<internal-name>Package C</internal-name>
-	<name>Package C</name>
+	<name_t>Package C</name_t>
 	<priceLabel>Price</priceLabel>
 	<price>$200.00</price>
 	<viewDescriptionButtonLabel>Check Details</viewDescriptionButtonLabel>

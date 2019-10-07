@@ -11,7 +11,7 @@
 	<createdDate_dt>2017-5-12T15:45:53.000Z</createdDate_dt>
 	<lastModifiedDate>2017-6-16T21:44:39.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2017-6-16T21:44:39.000Z</lastModifiedDate_dt>
-	<name>Package A</name>
+	<name_t>Package A</name_t>
 	<priceLabel>Price</priceLabel>
 	<price>$200.000</price>
 	<viewDescriptionButtonLabel>Check Details</viewDescriptionButtonLabel>

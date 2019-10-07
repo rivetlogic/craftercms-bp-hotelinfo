@@ -95,7 +95,7 @@
          <fields>
             <field>
                <type>input</type>
-               <id>name</id>
+               <id>name_t</id>
                <iceId/>
                <title>Name</title>
                <description/>

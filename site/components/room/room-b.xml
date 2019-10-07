@@ -5,7 +5,7 @@
 	<objectGroupId>dce4</objectGroupId>
 	<objectId>dce4f057-58b1-799f-75f2-7f04047afe61</objectId>
 	<internal-name>Room B</internal-name>
-	<name>Room B</name>
+	<name_t>Room B</name_t>
 	<sizeLabel>Size</sizeLabel>
 	<size>44 sq</size>
 	<priceLabel>Price</priceLabel>

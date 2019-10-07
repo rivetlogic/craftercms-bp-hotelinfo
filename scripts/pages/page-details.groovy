@@ -10,7 +10,7 @@ if (solrResults.response.documents.size > 0) {
     def solrResult = solrResults.response.documents[0]
 
     templateModel.found = true
-    templateModel.name = solrResult["name"]
+    templateModel.name_t = solrResult["name_t"]
     templateModel.sizeLabel = solrResult["sizeLabel"]
     templateModel.size = solrResult["size"]
     templateModel.priceLabel = solrResult["priceLabel"]

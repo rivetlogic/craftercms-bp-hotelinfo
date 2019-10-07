@@ -6,7 +6,7 @@
     <div class="container">
 
         <#if found??>
-            <h1 class="title">${name!""}</h1>
+            <h1 class="title">${name_t!""}</h1>
             
             <div id="RoomDetails" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">

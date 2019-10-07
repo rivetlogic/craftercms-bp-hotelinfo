@@ -14,7 +14,7 @@
                 </#list>
             </#if>
             <div class="info">
-                <h3>${contentModel.name!""}</h3>
+                <h3>${contentModel.name_t!""}</h3>
                 <p>${contentModel.shortDesciption!""}</p>
                 <a href="<@utils.appendIdlUrl contentModel.detailsUrl contentModel.objectId />" class="btn btn-default">${contentModel.viewDescriptionButtonLabel!""}</a>
             </div>

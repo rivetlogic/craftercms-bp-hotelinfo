@@ -7,7 +7,7 @@
 	<file-name>room-e.xml</file-name>
 	<folder-name/>
 	<internal-name>Room E</internal-name>
-	<name>Room E</name>
+	<name_t>Room E</name_t>
 	<sizeLabel>Size</sizeLabel>
 	<size>44 sq</size>
 	<priceLabel>Price</priceLabel>

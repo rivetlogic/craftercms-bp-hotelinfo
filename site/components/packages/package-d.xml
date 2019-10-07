@@ -7,7 +7,7 @@
 	<file-name>package-d.xml</file-name>
 	<folder-name/>
 	<internal-name>Package D</internal-name>
-	<name>Package D</name>
+	<name_t>Package D</name_t>
 	<priceLabel>Price</priceLabel>
 	<price>$200.00</price>
 	<viewDescriptionButtonLabel>Check Details</viewDescriptionButtonLabel>

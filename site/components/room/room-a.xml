@@ -5,7 +5,7 @@
 	<objectGroupId>06ef</objectGroupId>
 	<objectId>06ef438f-210b-3686-4ca0-637f3f909bd5</objectId>
 	<internal-name>Room A</internal-name>
-	<name>Room A</name>
+	<name_t>Room A</name_t>
 	<sizeLabel>Size</sizeLabel>
 	<size>44 sq</size>
 	<priceLabel>Price</priceLabel>
