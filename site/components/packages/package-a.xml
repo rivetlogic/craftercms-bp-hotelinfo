@@ -26,5 +26,5 @@ Pellentesque eu rutrum odio, quis elementum erat. Aliquam rutrum et ex accumsan 
 	</item>	<item>	<photo>/static-assets/images/photos/11.jpg</photo>
 	</item></photos>
 	<includedLabel_t>Included</includedLabel_t>
-	<detailsUrl>/packages-showcase/package-detail</detailsUrl>
+	<detailsUrl_s>/packages-showcase/package-detail</detailsUrl_s>
 </component>

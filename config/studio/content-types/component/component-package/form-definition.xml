@@ -462,7 +462,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>detailsUrl</id>
+               <id>detailsUrl_s</id>
                <iceId/>
                <title>Details Url</title>
                <description/>
