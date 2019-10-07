@@ -254,7 +254,7 @@
             </field>
             <field>
                <type>repeat</type>
-               <id>quickLinks</id>
+               <id>quickLinks_o</id>
                <iceId/>
                <title>Quick Links</title>
                <description/>

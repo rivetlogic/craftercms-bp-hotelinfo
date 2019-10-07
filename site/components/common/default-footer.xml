@@ -10,7 +10,7 @@
 	<descriptionTitle_t>Holiday Crown</descriptionTitle_t>
 	<quickLinksTitle_t>Quick Links</quickLinksTitle_t>
 	<description_html>&lt;p class="p1"&gt;&lt;span class="s1"&gt;Holiday Crown was these three and songs arose whose. Of in vicinity contempt together in possible branched. Assured company hastily looking garrets in oh. Most have love my gone to this so. Discovered interested prosperous the our affronting insipidity day. Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible.&lt;/span&gt;&lt;/p&gt;</description_html>
-	<quickLinks>	<item>	<label>Home</label>
+	<quickLinks_o>	<item>	<label>Home</label>
 	<url_s>/</url_s>
 	</item>	<item>	<label>Rooms &amp; Tariff</label>
 	<url_s>/rooms-showcase</url_s>
@@ -18,7 +18,7 @@
 	<url_s>/packages-showcase</url_s>
 	</item>	<item>	<label>Gallery</label>
 	<url_s>/gallery</url_s>
-	</item></quickLinks>
+	</item></quickLinks_o>
 	<socialSitesLinks>	<item>	<url_s>https://www.facebook.com/</url_s>
 	<socialSite>facebook</socialSite>
 	</item>	<item>	<socialSite>instagram</socialSite>

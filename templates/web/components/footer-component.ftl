@@ -12,9 +12,9 @@
 
             <div class="col-sm-3">
                 <h4>${model.quickLinksTitle_t!""}</h4>
-                <#if contentModel.quickLinks?? && contentModel.quickLinks.item??>
+                <#if contentModel.quickLinks_o?? && contentModel.quickLinks_o.item??>
                     <ul class="list-unstyled">
-                        <#list model.quickLinks.item as item>
+                        <#list model.quickLinks_o.item as item>
                             <li><a href="${item.url_s}">${item.label}</a></li>
                         </#list>
                     </ul>
