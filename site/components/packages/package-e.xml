@@ -6,7 +6,7 @@
 	<objectId>d69956d9-d9b1-b1a9-54ed-79725681d060</objectId>
 	<internal-name>Package E</internal-name>
 	<name_t>Package E</name_t>
-	<priceLabel>Price</priceLabel>
+	<priceLabel_t>Price</priceLabel_t>
 	<price>$200.00</price>
 	<viewDescriptionButtonLabel>Check Details</viewDescriptionButtonLabel>
 	<file-name>package-e.xml</file-name>

@@ -224,7 +224,7 @@
             </field>
             <field>
                <type>input</type>
-               <id>priceLabel</id>
+               <id>priceLabel_t</id>
                <iceId/>
                <title>Price Label</title>
                <description/>
