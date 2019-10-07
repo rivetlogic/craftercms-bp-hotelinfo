@@ -181,7 +181,7 @@
             </field>
             <field>
                <type>repeat</type>
-               <id>images</id>
+               <id>images_o</id>
                <iceId/>
                <title>Images</title>
                <description/>

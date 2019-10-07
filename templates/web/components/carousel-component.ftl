@@ -4,9 +4,9 @@
   <!-- RoomCarousel -->
   <div id="${contentModel.objectId}" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
-        <#if contentModel.images?? && contentModel.images.item??>
+        <#if contentModel.images_o?? && contentModel.images_o.item??>
           <#assign first = true>
-          <#list contentModel.images.item as image>
+          <#list contentModel.images_o.item as image>
             <#if first>
               <div class="item active"><img src="${image.image!""}" class="img-responsive" alt="slide"></div>
               <#assign first = false>

@@ -10,7 +10,7 @@
 	<title>Gallery</title>
 	<placeInNav>true</placeInNav>
 	<orderDefault_f>4000</orderDefault_f>
-	<images>	<item>	<imageTitle>Foods</imageTitle>
+	<images_o>	<item>	<imageTitle>Foods</imageTitle>
 	<image>/static-assets/images/photos/1.jpg</image>
 	</item>	<item>	<imageTitle>Coffee</imageTitle>
 	<image>/static-assets/images/photos/2.jpg</image>
@@ -30,7 +30,7 @@
 	<image>/static-assets/images/photos/9.jpg</image>
 	</item>	<item>	<imageTitle>Living Room</imageTitle>
 	<image>/static-assets/images/photos/11.jpg</image>
-	</item></images>
+	</item></images_o>
 	<createdDate>2017-5-15T16:54:46.000Z</createdDate>
 	<createdDate_dt>2017-5-15T16:54:46.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-15T17:9:36.000Z</lastModifiedDate>

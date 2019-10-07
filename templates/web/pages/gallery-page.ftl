@@ -7,8 +7,8 @@
 
         <h1 class="title">${contentModel.title!""}</h1>
         <div class="row gallery" <@studio.iceAttr iceGroup="images"/>>
-            <#if contentModel.images?? && contentModel.images.item??>
-                <#list contentModel.images.item as image>
+            <#if contentModel.images_o?? && contentModel.images_o.item??>
+                <#list contentModel.images_o.item as image>
                     <div class="col-sm-4 wowload fadeInUp">
                         <a href="${image.image!""}" title="${image.imageTitle!""}" class="gallery-image" data-gallery>
                             <img src="${image.image!""}" class="img-responsive">
