@@ -11,7 +11,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="${model.headerimageUrl_s}"><img src="${model.headerImage_s!""}" class="logo-image" alt="${model.title!""}"></a>
+      <a class="navbar-brand" href="${model.headerimageUrl_s}"><img src="${model.headerImage_s!""}" class="logo-image" alt="${model.title_t!""}"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->

@@ -5,7 +5,7 @@
 <@layout.default>
     <div class="container">
 
-        <h1 class="title">${contentModel.title!""}</h1>
+        <h1 class="title">${contentModel.title_t!""}</h1>
         <div class="row gallery" <@studio.iceAttr iceGroup="images"/>>
             <#if contentModel.images_o?? && contentModel.images_o.item??>
                 <#list contentModel.images_o.item as image>

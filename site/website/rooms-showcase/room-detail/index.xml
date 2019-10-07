@@ -5,7 +5,7 @@
 	<objectGroupId>3e30</objectGroupId>
 	<objectId>3e30021d-e273-70c1-1949-e7b345bca894</objectId>
 	<internal-name>Room Details</internal-name>
-	<title>Room Details</title>
+	<title_t>Room Details</title_t>
 	<file-name>index.xml</file-name>
 	<folder-name>room-detail</folder-name>
 	<placeInNav>false</placeInNav>

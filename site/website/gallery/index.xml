@@ -7,7 +7,7 @@
 	<file-name>index.xml</file-name>
 	<folder-name>gallery</folder-name>
 	<internal-name>Gallery</internal-name>
-	<title>Gallery</title>
+	<title_t>Gallery</title_t>
 	<placeInNav>true</placeInNav>
 	<orderDefault_f>4000</orderDefault_f>
 	<images_o>	<item>	<imageTitle>Foods</imageTitle>

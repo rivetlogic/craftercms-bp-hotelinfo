@@ -7,7 +7,7 @@
 	<file-name>index.xml</file-name>
 	<folder-name>package-detail</folder-name>
 	<internal-name>Package Detail</internal-name>
-	<title>Package Detail</title>
+	<title_t>Package Detail</title_t>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2017-5-12T21:24:20.000Z</createdDate>

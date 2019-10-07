@@ -8,7 +8,7 @@
         <div class="welcome-message">
             <div class="wrap-info">
                 <div class="information">
-                    <h1  class="animated fadeInDown">${contentModel.title!""}</h1>
+                    <h1  class="animated fadeInDown">${contentModel.title_t!""}</h1>
                     <p class="animated fadeInUp">${contentModel.subTitle!""}</p>
                 </div>
                 <a href="#information" class="arrow-nav scroll wowload fadeInDownBig"><i class="fa fa-angle-down"></i></a>

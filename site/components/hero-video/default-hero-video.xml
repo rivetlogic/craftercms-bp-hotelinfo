@@ -7,7 +7,7 @@
 	<file-name>default-hero-video.xml</file-name>
 	<folder-name/>
 	<internal-name>Default Hero Video</internal-name>
-	<title>Best hotel in Dubai</title>
+	<title_t>Best hotel in Dubai</title_t>
 	<subTitle>Most luxurious hotel of asia with the royal treatments and excellent customer service.</subTitle>
 	<video>/static-assets/videos/690424100.mp4</video>
 	<fallbackImage>/static-assets/images/photos/banner.jpg</fallbackImage>

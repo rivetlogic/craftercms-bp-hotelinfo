@@ -4,7 +4,7 @@
 
 <@layout.default>
 	<div class="container">
-    	<h2>${contentModel.title!""}</h2>
+    	<h2>${contentModel.title_t!""}</h2>
         <div <@studio.iceAttr iceGroup="rooms"/>>
         	<div <@studio.componentContainerAttr target="rooms" objectId=contentModel.objectId/>>
             	<#if contentModel.rooms?? && contentModel.rooms.item??>

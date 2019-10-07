@@ -13,7 +13,7 @@
 	<createdDate_dt>2017-5-11T15:13:3.000Z</createdDate_dt>
 	<lastModifiedDate>2017-5-24T15:50:49.000Z</lastModifiedDate>
 	<lastModifiedDate_dt>2017-5-24T15:50:49.000Z</lastModifiedDate_dt>
-	<title>Rooms &amp; Tariff</title>
+	<title_t>Rooms &amp; Tariff</title_t>
 	<rooms>	<item>	<key>/site/components/room/room-b.xml</key>
 	<value>Room B</value>
 	<include>/site/components/room/room-b.xml</include>
