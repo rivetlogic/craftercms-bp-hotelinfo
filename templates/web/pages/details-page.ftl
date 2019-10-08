@@ -15,12 +15,12 @@
                         <#list photos_o as photo>
                             <#if first>
                                 <div class="item active carrousel-big-image">
-                                    <img src="${photo!""}" class="carrousel-big-image img-responsive" alt="slide">
+                                    <img src="${photo.photo_s!""}" class="carrousel-big-image img-responsive" alt="slide">
                                 </div>
                                 <#assign first = false>
                             <#else>
                                 <div class="item height-full carrousel-big-image">
-                                    <img src="${photo!""}"  class="carrousel-big-image img-responsive" alt="slide">
+                                    <img src="${photo.photo_s!""}"  class="carrousel-big-image img-responsive" alt="slide">
                                 </div>
                             </#if>
                         </#list>
@@ -42,7 +42,7 @@
                             <h3>${amenititesLabel_t!""}</h3>
                             <ul>
                                 <#list amenitites_o as amenitite>
-                                    <li>${amenitite!""}</li>
+                                    <li>${amenitite.text_t!""}</li>
                                 </#list>
                             </ul>
                         </#if>
@@ -50,7 +50,7 @@
                             <h3>${includedLabel_t!""}</h3>
                             <ul>
                                 <#list include_o as include>
-                                    <li>${include!""}</li>
+                                    <li>${include.item_t!""}</li>
                                 </#list>
                             </ul>
                         </#if>

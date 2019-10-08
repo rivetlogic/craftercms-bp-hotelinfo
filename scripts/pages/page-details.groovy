@@ -31,32 +31,29 @@ if (searchResult.hits.hits) {
     templateModel.longDescription_t = result["longDescription_t"]
     templateModel.amenititesLabel_t = result["amenititesLabel_t"]
     templateModel.includedLabel_t = result["includedLabel_t"]
-    def photos_o = result["photos_o.item.photo_s"]
-    
-    if (photos_o instanceof String) {
-        def photosArr = []
-        photosArr.add(photos_o)
-        templateModel.photos_o = photosArr
+    templateModel.photos_o = result["photos_o"] 
+    templateModel.amenitites_o = result["amenitites_o"]
+    templateModel.include_o = result["include_o"]
+
+    def photos = result["photos_o"]
+    def amenitites = result["amenitites_o"]
+    def include = result["include_o"]
+
+    if (photos && photos.item instanceof java.util.ArrayList) {
+        templateModel.photos_o = photos.item
     } else {
-        templateModel.photos_o = photos_o
+        templateModel.photos_o = photos ? [photos.item].flatten() : null
     }
 
-    def amenitites_o = result["amenitites_o.item.text_t"]
-    if (amenitites_o instanceof String) {
-        def amenititesArr = []
-        amenititesArr.add(amenitites_o)
-        templateModel.amenitites_o = amenititesArr
+    if (amenitites && amenitites.item instanceof java.util.ArrayList) {
+        templateModel.amenitites_o = amenitites.item
     } else {
-        templateModel.amenitites_o = amenitites_o
+        templateModel.amenitites_o = amenitites ? [amenitites.item].flatten() : null
     }
 
-
-    def include_o = result["include_o.item.item_t"]
-    if (include_o instanceof String) {
-        def includes = []
-        includes.add(include_o)
-        templateModel.include_o = includes
+    if (include && include.item instanceof java.util.ArrayList) {
+        templateModel.include_o = include.item
     } else {
-        templateModel.include_o = include_o
+        templateModel.include_o = include ? [include.item].flatten() : null
     }
 } 
