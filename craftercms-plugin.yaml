@@ -23,13 +23,13 @@ media:
   screenshots:
     - title: Home Page
       description: Screenshot of the home page
-      url: "https://github.com/rivetlogic/craftercms-bp-hotelinfo/raw/master/static-assets/images/screenshots/bp_hotelinfo_home.png"
+      url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-hotelinfo/master/static-assets/images/screenshots/bp_hotelinfo_home.png"
     - title: Rooms Page
       description: Screenshot of the rooms page
-      url: "https://github.com/rivetlogic/craftercms-bp-hotelinfo/raw/master/static-assets/images/screenshots/bp_hotelinfo_rooms.png"
-    - title: Home Gallery
+      url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-hotelinfo/master/static-assets/images/screenshots/bp_hotelinfo_rooms.png"
+    - title: Gallery Page
       description: Screenshot of the gallery page
-      url: "https://github.com/rivetlogic/craftercms-bp-hotelinfo/raw/master/static-assets/images/screenshots/bp_hotelinfo_gallery.png"
+      url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-hotelinfo/master/static-assets/images/screenshots/bp_hotelinfo_gallery.png"
 developer:
   company:
     name: Rivet Logic
