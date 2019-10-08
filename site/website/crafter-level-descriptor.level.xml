@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/level-descriptor</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>352d</objectGroupId>
+	<objectId>352df185-a0fb-d62b-488b-e2982851e212</objectId>
+	<file-name>crafter-level-descriptor.level.xml</file-name>
+	<folder-name/>
+	<defaultHeader_o>	<item>	<key>/site/components/common/default-header.xml</key>
+	<value>Default Header</value>
+	<include>/site/components/common/default-header.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></defaultHeader_o>
+	<defaultFooter_o>	<item>	<key>/site/components/common/default-footer.xml</key>
+	<value>Default Footer</value>
+	<include>/site/components/common/default-footer.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></defaultFooter_o>
+	<createdDate>2017-5-9T21:51:33.000Z</createdDate>
+	<createdDate_dt>2017-5-9T21:51:33.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-9T21:59:56.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-9T21:59:56.000Z</lastModifiedDate_dt>
+</component>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/page-gallery</content-type>	<display-template>/templates/web/pages/gallery-page.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>3e2e</objectGroupId>
+	<objectId>3e2e5567-547f-3516-39eb-8a8005694038</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>gallery</folder-name>
+	<internal-name>Gallery</internal-name>
+	<title_t>Gallery</title_t>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>4000</orderDefault_f>
+	<images_o>	<item>	<imageTitle_t>Foods</imageTitle_t>
+	<image_s>/static-assets/images/photos/1.jpg</image_s>
+	</item>	<item>	<imageTitle_t>Coffee</imageTitle_t>
+	<image_s>/static-assets/images/photos/2.jpg</image_s>
+	</item>	<item>	<imageTitle_t>Travel</imageTitle_t>
+	<image_s>/static-assets/images/photos/3.jpg</image_s>
+	</item>	<item>	<imageTitle_t>Adventure</imageTitle_t>
+	<image_s>/static-assets/images/photos/4.jpg</image_s>
+	</item>	<item>	<imageTitle_t>Fruits</imageTitle_t>
+	<image_s>/static-assets/images/photos/5.jpg</image_s>
+	</item>	<item>	<imageTitle_t>Summer</imageTitle_t>
+	<image_s>/static-assets/images/photos/6.jpg</image_s>
+	</item>	<item>	<imageTitle_t>Bathroom</imageTitle_t>
+	<image_s>/static-assets/images/photos/7.jpg</image_s>
+	</item>	<item>	<imageTitle_t>Rooms</imageTitle_t>
+	<image_s>/static-assets/images/photos/8.jpg</image_s>
+	</item>	<item>	<imageTitle_t>Big Room</imageTitle_t>
+	<image_s>/static-assets/images/photos/9.jpg</image_s>
+	</item>	<item>	<imageTitle_t>Living Room</imageTitle_t>
+	<image_s>/static-assets/images/photos/11.jpg</image_s>
+	</item></images_o>
+	<createdDate>2017-5-15T16:54:46.000Z</createdDate>
+	<createdDate_dt>2017-5-15T16:54:46.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-15T17:9:36.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-15T17:9:36.000Z</lastModifiedDate_dt>
+</page>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/page-packages</content-type>	<display-template>/templates/web/pages/packages-page.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>19af</objectGroupId>
+	<objectId>19af797f-076f-2f77-aae3-f15421351005</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>packages-showcase</folder-name>
+	<internal-name>Packages</internal-name>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>3000</orderDefault_f>
+	<packages_o>	<item>	<key>/site/components/packages/package-a.xml</key>
+	<value>Package A</value>
+	<include>/site/components/packages/package-a.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/packages/package-b.xml</key>
+	<value>Package B</value>
+	<include>/site/components/packages/package-b.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/packages/package-c.xml</key>
+	<value>Package C</value>
+	<include>/site/components/packages/package-c.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/packages/package-d.xml</key>
+	<value>Package D</value>
+	<include>/site/components/packages/package-d.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/packages/package-e.xml</key>
+	<value>Package E</value>
+	<include>/site/components/packages/package-e.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></packages_o>
+	<createdDate>2017-5-12T15:45:34.000Z</createdDate>
+	<createdDate_dt>2017-5-12T15:45:34.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-12T16:47:39.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-12T16:47:39.000Z</lastModifiedDate_dt>
+	<title_t>Packages</title_t>
+</page>

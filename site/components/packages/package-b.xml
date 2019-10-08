@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-package</content-type>	<display-template>/templates/web/components/package-component.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>768c</objectGroupId>
+	<objectId>768c9736-3d3f-81dd-24a4-0d2c5d4b4e6e</objectId>
+	<shortDescription_t>Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible</shortDescription_t>
+	<longDescription_t>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique dolor in diam auctor, vitae condimentum ante dignissim. Aliquam in iaculis dui, vitae tincidunt dolor. Proin cursus mattis est eget fermentum. Vivamus quis malesuada orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus pharetra sapien, at vehicula velit malesuada vitae. Sed in venenatis elit, nec lobortis magna. Donec vestibulum vulputate sem, vitae dignissim arcu ultricies ac. Vestibulum vel fermentum sapien. Aliquam egestas arcu quis iaculis vestibulum.
+
+Pellentesque eu rutrum odio, quis elementum erat. Aliquam rutrum et ex accumsan dignissim. Duis sagittis diam et gravida volutpat. Nulla fermentum vulputate justo, auctor fringilla erat faucibus id. Suspendisse pulvinar hendrerit suscipit. Mauris molestie, leo facilisis ullamcorper interdum, ex urna condimentum risus, vitae sollicitudin tortor ipsum non ante. Vestibulum dapibus eros blandit eleifend scelerisque. Phasellus condimentum eros ut consequat faucibus. Donec dignissim tempor eros hendrerit sagittis. Sed lacinia molestie justo, non mattis urna. Fusce rhoncus, lectus eu faucibus porta, mi risus malesuada ex, vel imperdiet orci nulla vel massa. Curabitur dignissim id ante vitae auctor. Aenean massa erat, consequat id luctus ac, maximus quis nibh.</longDescription_t>
+	<internal-name>Package B</internal-name>
+	<name_t>Package B</name_t>
+	<priceLabel_t>Price</priceLabel_t>
+	<price_t>$200.00</price_t>
+	<viewDescriptionButtonLabel_t>Check Details</viewDescriptionButtonLabel_t>
+	<file-name>package-b.xml</file-name>
+	<folder-name/>
+	<include_o>	<item>	<item_t>Item A</item_t>
+	</item>	<item>	<item_t>Item B</item_t>
+	</item>	<item>	<item_t>item C</item_t>
+	</item></include_o>
+	<photos_o>	<item>	<photo_s>/static-assets/images/photos/1.jpg</photo_s>
+	</item>	<item>	<photo_s>/static-assets/images/photos/4.jpg</photo_s>
+	</item></photos_o>
+	<createdDate>2017-5-12T16:24:51.000Z</createdDate>
+	<createdDate_dt>2017-5-12T16:24:51.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-12T21:25:37.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-12T21:25:37.000Z</lastModifiedDate_dt>
+	<includedLabel_t>Included</includedLabel_t>
+	<detailsUrl_s>/packages-showcase/package-detail</detailsUrl_s>
+</component>

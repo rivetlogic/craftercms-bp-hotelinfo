@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/component-carousel</content-type>	<display-template>/templates/web/components/carousel-component.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>4d10</objectGroupId>
+	<objectId>4d10b011-a5fe-3306-e3bf-395eec6a8088</objectId>
+	<images_o>	<item>	<image_s>/static-assets/images/photos/1.jpg</image_s>
+	</item>	<item>	<image_s>/static-assets/images/photos/2.jpg</image_s>
+	</item>	<item>	<image_s>/static-assets/images/photos/5.jpg</image_s>
+	</item></images_o>
+	<internal-name>Carousel C</internal-name>
+	<urlTitle_t>Gallery</urlTitle_t>
+	<url_s>/gallery</url_s>
+	<file-name>carousel-c.xml</file-name>
+	<folder-name/>
+	<createdDate>2017-5-11T16:15:39.000Z</createdDate>
+	<createdDate_dt>2017-5-11T16:15:39.000Z</createdDate_dt>
+	<lastModifiedDate>2017-5-15T17:49:23.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-5-15T17:49:23.000Z</lastModifiedDate_dt>
+</component>
