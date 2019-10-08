@@ -6,19 +6,19 @@ descriptorVersion: 2
 # Describe the plugin
 plugin:
   type: blueprint
-  id: org.craftercms.blueprint.hotelinfo
-  name: "Crafter CMS Blueprint: Hotel Info"
+  id: com.rivetlogic.craftercms.blueprint.hotelinfo
+  name: "Hotel Website"
   tags:
     - blueprint
     - hotel
   version:
     major: 1
     minor: 0
-    patch: 1
+    patch: 2
   description: |
-    Hotel Info is a stylish multiple page Crafter 3 blueprint with video backgrounds.
+    Hotel Website is a stylish multi-page Crafter CMS blueprint with video backgrounds.
   website:
-    name: "Crafter CMS Blueprint: Hotel Info"
+    name: "Hotel Website"
   media:
     screenshots:
       - title: Home Page
@@ -33,7 +33,7 @@ plugin:
   developer:
     company:
       name: Rivet Logic
-      email: support@rivetlogic.com
+      email: into@rivetlogic.com
       url: https://rivetlogic.com
   build:
     id: c3d2a5444e6a24b5e0481d6ba87901d0b02716c8
