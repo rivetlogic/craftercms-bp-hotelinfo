@@ -19,33 +19,33 @@ plugin:
     Hotel Info is a stylish multiple page Crafter 3 blueprint with video backgrounds.
   website:
     name: "Crafter CMS Blueprint: Hotel Info"
-media:
-  screenshots:
-    - title: Home Page
-      description: Screenshot of the home page
-      url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-hotelinfo/master/static-assets/images/screenshots/bp_hotelinfo_home.png"
-    - title: Rooms Page
-      description: Screenshot of the rooms page
-      url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-hotelinfo/master/static-assets/images/screenshots/bp_hotelinfo_rooms.png"
-    - title: Gallery Page
-      description: Screenshot of the gallery page
-      url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-hotelinfo/master/static-assets/images/screenshots/bp_hotelinfo_gallery.png"
-developer:
-  company:
-    name: Rivet Logic
-    email: support@rivetlogic.com
-    url: https://rivetlogic.com
-build:
-  id: c3d2a5444e6a24b5e0481d6ba87901d0b02716c8
-  date: 2019-01-23T00:00:00Z
-license:
-  name: GNU
-  url: https://opensource.org/licenses/GPL-3.0
-crafterCmsVersions:
-  - major: 3
-    minor: 1
-    patch: 4
-crafterCmsEditions:
-  - community
-  - enterprise
-searchEngine: Elasticsearch
+  media:
+    screenshots:
+      - title: Home Page
+        description: Screenshot of the home page
+        url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-hotelinfo/master/static-assets/images/screenshots/bp_hotelinfo_home.png"
+      - title: Rooms Page
+        description: Screenshot of the rooms page
+        url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-hotelinfo/master/static-assets/images/screenshots/bp_hotelinfo_rooms.png"
+      - title: Gallery Page
+        description: Screenshot of the gallery page
+        url: "https://raw.githubusercontent.com/rivetlogic/craftercms-bp-hotelinfo/master/static-assets/images/screenshots/bp_hotelinfo_gallery.png"
+  developer:
+    company:
+      name: Rivet Logic
+      email: support@rivetlogic.com
+      url: https://rivetlogic.com
+  build:
+    id: c3d2a5444e6a24b5e0481d6ba87901d0b02716c8
+    date: 2019-01-23T00:00:00Z
+  license:
+    name: GNU
+    url: https://opensource.org/licenses/GPL-3.0
+  crafterCmsVersions:
+    - major: 3
+      minor: 1
+      patch: 4
+  crafterCmsEditions:
+    - community
+    - enterprise
+  searchEngine: Elasticsearch
