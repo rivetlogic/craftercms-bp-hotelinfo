@@ -1,6 +1,5 @@
 <#import "/templates/web/layout/default-layout.ftl" as layout/>
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
-<#import "/templates/system/common/craftercms-common.ftl" as crafterCommon/>
 <@layout.default>
     <section <@studio.iceAttr iceGroup="hero-video"/>>
         <#if contentModel.heroVideo_o?? && contentModel.heroVideo_o.item??>
