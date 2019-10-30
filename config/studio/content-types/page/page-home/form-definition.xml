@@ -165,7 +165,7 @@
                </constraints>
             </field>
             <field>
-               <type>rte</type>
+               <type>rte-tinymce5</type>
                <id>mainRte_html</id>
                <iceId>mainRte</iceId>
                <title>Main Rte</title>
@@ -238,7 +238,7 @@
                </constraints>
             </field>
             <field>
-               <type>rte</type>
+               <type>rte-tinymce5</type>
                <id>secondRte_html</id>
                <iceId>secondRte</iceId>
                <title>Second Rte</title>
@@ -370,7 +370,7 @@
    </sections>
    <datasources>
       <datasource>
-         <type>child-content</type>
+         <type>shared-content</type>
          <id>heroVideoDatasource</id>
          <title>Hero Video Datasource</title>
          <interface>item</interface>
@@ -393,7 +393,7 @@
          </properties>
       </datasource>
       <datasource>
-         <type>child-content</type>
+         <type>shared-content</type>
          <id>carouselDatasource</id>
          <title>Carousel Datasource</title>
          <interface>item</interface>

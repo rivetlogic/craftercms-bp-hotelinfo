@@ -166,7 +166,7 @@
    </sections>
    <datasources>
       <datasource>
-         <type>child-content</type>
+         <type>shared-content</type>
          <id>headerDatasource</id>
          <title>Header Datasource</title>
          <interface>item</interface>
@@ -189,7 +189,7 @@
          </properties>
       </datasource>
       <datasource>
-         <type>child-content</type>
+         <type>shared-content</type>
          <id>footerDatasource</id>
          <title>Footer Datasource</title>
          <interface>item</interface>

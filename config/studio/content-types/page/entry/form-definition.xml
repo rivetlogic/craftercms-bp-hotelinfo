@@ -157,7 +157,7 @@
                </constraints>
             </field>
             <field>
-               <type>rte</type>
+               <type>rte-tinymce5</type>
                <id>body_html</id>
                <iceId>main</iceId>
                <title>Body Copy</title>

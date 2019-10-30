@@ -222,7 +222,7 @@
    </sections>
    <datasources>
       <datasource>
-         <type>child-content</type>
+         <type>shared-content</type>
          <id>roomsDatasource</id>
          <title>Rooms Datasource</title>
          <interface>item</interface>
