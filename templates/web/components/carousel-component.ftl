@@ -27,7 +27,7 @@
   </div>
   <!-- RoomCarousel-->
   <div class="caption">
-    <@studio.span field="urlTitle_t">
+    <@studio.span $field="urlTitle_t">
         ${contentModel.urlTitle_t!""}
     </@studio.span>
     <a href="${contentModel.url_s!""}" class="pull-right"><i class="fa fa-edit"></i></a>
