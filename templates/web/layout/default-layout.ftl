@@ -1,4 +1,4 @@
-<#import "/templates/system/common/cstudio-support.ftl" as studio />
+<#import "/templates/system/common/ice.ftl" as studio />
 <#include "/templates/web/includes/global.ftl" />
 
 <#macro default cstudioSupport = true>
@@ -59,7 +59,7 @@
 
 
         <footer id="footer">
-                <@renderFooter/>
+            <@renderFooter/>
         </footer>
 
 
@@ -101,7 +101,7 @@
         <!-- custom script -->
         <script src="/static-assets/js/script.js"></script>
 
-		<@studio.toolSupport/>	
+        <@studio.initPageBuilder/>
     </body>
     </html>
 </#macro>

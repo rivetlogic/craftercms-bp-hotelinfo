@@ -34,6 +34,7 @@ if (searchResult.hits.hits) {
     templateModel.photos_o = result["photos_o"] 
     templateModel.amenitites_o = result["amenitites_o"]
     templateModel.include_o = result["include_o"]
+    templateModel.localId = result["localId"]
 
     def photos = result["photos_o"]
     def amenitites = result["amenitites_o"]
