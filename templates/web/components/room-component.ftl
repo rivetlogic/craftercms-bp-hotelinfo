@@ -2,7 +2,7 @@
 <#import "/templates/web/includes/utils.ftl" as utils />
 
 <article>
-    <@studio.componentRootTag $tag="div" class="col-sm-6 wowload fadeInUp">
+    <div class="col-sm-6 wowload fadeInUp">
         <div class="rooms">
             <#if contentModel.photos_o?? && contentModel.photos_o.item??>
                 <#assign first = true>
@@ -33,5 +33,5 @@
                 </a>
             </div>
         </div>
-    </@studio.componentRootTag>
+    </div>
 </article>

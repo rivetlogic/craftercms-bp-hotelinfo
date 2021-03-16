@@ -7,13 +7,16 @@
 			${contentModel.title_t!""}
 		</@studio.h2>
 		<section>
-			<div class="row">
+			<@studio.tag $field="packages_o" class="row">
 				<#if contentModel.packages_o?? && contentModel.packages_o.item??>
 					<#list contentModel.packages_o.item as item>
-						<@renderComponent component=item />
+						<#assign index = item?index>
+						<@studio.tag $field="packages_o" $index=index>
+							<@renderComponent component=item />
+						</@studio.tag>
 					</#list>
 				</#if>
-			</div>
+			</@studio.tag>
 		</section>
 	</div>
 </@layout.default>
