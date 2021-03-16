@@ -23,22 +23,20 @@
     </div>
     <!-- reservation-information -->
 
-
-
     <!-- services -->
     <div class="spacer services wowload fadeInUp">
         <div class="container">
         <section>
-            <div class="row">
-                <#if contentModel.carousels_o?? && contentModel.carousels_o.item??>
+           <#if contentModel.carousels_o?? && contentModel.carousels_o.item??>
+               <@studio.tag $field="carousels_o" class="row">
                     <#list contentModel.carousels_o.item as carousel>
                         <#assign index = carousel?index>
                         <@studio.tag $field="carousels_o" $index=index class="col-sm-4">
                             <@renderComponent component=carousel />
                         </@studio.tag>
                     </#list>
-                </#if>
-            </div>
+               </@studio.tag>
+            </#if>
         </section>
         </div>
     </div>
