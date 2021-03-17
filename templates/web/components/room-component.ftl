@@ -2,7 +2,7 @@
 <#import "/templates/web/includes/utils.ftl" as utils />
 
 <article>
-    <div class="col-sm-6 wowload fadeInUp">
+    <div class="wowload fadeInUp">
         <div class="rooms">
             <#if contentModel.photos_o?? && contentModel.photos_o.item??>
                 <#assign first = true>

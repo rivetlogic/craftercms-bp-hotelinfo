@@ -11,7 +11,7 @@
 				<#if contentModel.packages_o?? && contentModel.packages_o.item??>
 					<#list contentModel.packages_o.item as item>
 						<#assign index = item?index>
-						<@studio.tag $field="packages_o" $index=index>
+						<@studio.tag $field="packages_o" class="col-sm-6" $index=index>
 							<@renderComponent component=item />
 						</@studio.tag>
 					</#list>
