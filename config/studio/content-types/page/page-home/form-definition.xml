@@ -369,44 +369,6 @@
 		</section>
 	</sections>
 	<datasources>				<datasource>
-					<type>shared-content</type>
-					<id>heroVideoDatasource</id>
-					<title>Hero Video Datasource</title>
-					<interface>item</interface>
-					<properties>
-						<property>
-							<name>repoPath</name>
-							<value>/site/components/hero-video</value>
-								<type>undefined</type>
-						</property>
-						<property>
-							<name>browsePath</name>
-							<value>/site/components/hero-video</value>
-								<type>undefined</type>
-						</property>
-						<property>
-							<name>type</name>
-							<value>/component/component-hero-video</value>
-								<type>undefined</type>
-						</property>
-						<property>
-							<name>enableCreateNew</name>
-							<value>true</value>
-								<type>boolean</type>
-						</property>
-						<property>
-							<name>enableBrowseExisting</name>
-							<value>true</value>
-								<type>boolean</type>
-						</property>
-						<property>
-							<name>enableSearchExisting</name>
-							<value>false</value>
-								<type>boolean</type>
-						</property>
-					</properties>
-				</datasource>
-				<datasource>
 					<type>dropTargets</type>
 					<id>carouselDatasource</id>
 					<title>Carousel Datasource</title>
@@ -445,6 +407,54 @@
 						<property>
 							<name>contentTypes</name>
 							<value>/component/component-carousel</value>
+								<type>contentTypes</type>
+						</property>
+						<property>
+							<name>tags</name>
+							<value></value>
+								<type>string</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>dropTargets</type>
+					<id>heroVideoDatasource</id>
+					<title>Hero Video Datasource</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>allowShared</name>
+							<value>true</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>allowEmbedded</name>
+							<value>false</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>enableBrowse</name>
+							<value>false</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>enableSearch</name>
+							<value>true</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>baseRepositoryPath</name>
+							<value>/site/components/hero-video</value>
+								<type>string</type>
+						</property>
+						<property>
+							<name>baseBrowsePath</name>
+							<value>/site/components/hero-video</value>
+								<type>string</type>
+						</property>
+						<property>
+							<name>contentTypes</name>
+							<value>/component/component-hero-video</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
