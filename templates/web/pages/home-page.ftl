@@ -1,7 +1,7 @@
 <#import "/templates/web/layout/default-layout.ftl" as layout/>
-<#import "/templates/system/common/cstudio-support.ftl" as studio />
+<#import "/templates/system/common/ice.ftl" as studio />
 <@layout.default>
-    <section <@studio.iceAttr iceGroup="hero-video"/>>
+    <section>
         <#if contentModel.heroVideo_o?? && contentModel.heroVideo_o.item??>
             <#list contentModel.heroVideo_o.item as heroVideo>
                 <@renderComponent component=heroVideo />
@@ -12,32 +12,31 @@
     <div id="information" class="spacer reserve-info ">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
+                <@studio.tag $field="mainRte_html" class="col-md-8">
                     ${contentModel.mainRte_html!""}
-                </div>
-                <div class="col-md-4" <@studio.iceAttr iceGroup="secondRte"/>>
+                </@studio.tag>
+                <@studio.tag $field="secondRte_html" class="col-md-4">
                     ${contentModel.secondRte_html!""}
-                </div>
+                </@studio.tag>
             </div>
         </div>
     </div>
     <!-- reservation-information -->
 
-
-
     <!-- services -->
     <div class="spacer services wowload fadeInUp">
         <div class="container">
-        <section <@studio.iceAttr iceGroup="carousels"/>>
-            <div class="row" <@studio.componentContainerAttr target="carousels" objectId=contentModel.objectId/>>
-                <#if contentModel.carousels_o?? && contentModel.carousels_o.item??>
+        <section>
+           <#if contentModel.carousels_o?? && contentModel.carousels_o.item??>
+               <@studio.tag $field="carousels_o" class="row">
                     <#list contentModel.carousels_o.item as carousel>
-                        <div class="col-sm-4">
+                        <#assign index = carousel?index>
+                        <@studio.tag $field="carousels_o" $index=index class="col-sm-4">
                             <@renderComponent component=carousel />
-                        </div>
+                        </@studio.tag>
                     </#list>
-                </#if>
-            </div>
+               </@studio.tag>
+            </#if>
         </section>
         </div>
     </div>

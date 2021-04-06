@@ -1,20 +1,22 @@
 <#import "/templates/web/layout/default-layout.ftl" as layout/>
-<#import "/templates/system/common/cstudio-support.ftl" as studio />
+<#import "/templates/system/common/ice.ftl" as studio />
 
 <@layout.default>
     <div class="container">
-
-        <h1 class="title">${contentModel.title_t!""}</h1>
-        <div class="row gallery" <@studio.iceAttr iceGroup="images"/>>
+        <@studio.h1 $field="title_t" class="title">
+            ${contentModel.title_t!""}
+        </@studio.h1>
+        <@studio.tag $field="images_o" class="row gallery">
             <#if contentModel.images_o?? && contentModel.images_o.item??>
                 <#list contentModel.images_o.item as image>
-                    <div class="col-sm-4 wowload fadeInUp">
+                    <#assign index = image?index>
+                    <@studio.tag $field="images_o" $index=index class="col-sm-4 wowload fadeInUp">
                         <a href="${image.image_s!""}" title="${image.imageTitle_t!""}" class="gallery-image" data-gallery>
-                            <img src="${image.image_s!""}" class="img-responsive">
+                            <@studio.img $field="images_o.image_s" $index=index src=(image.image_s!"") class="img-responsive" />
                         </a>
-                    </div>
+                    </@studio.tag>
                 </#list>
             </#if>
-        </div>
+        </@studio.tag>
     </div>
 </@layout.default>

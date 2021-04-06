@@ -1,4 +1,5 @@
 <#import "/templates/web/navigation2/navigation.ftl" as nav/>
+<#import "/templates/system/common/ice.ftl" as studio />
 
 <nav class="navbar  navbar-default" role="navigation">
   <div class="container">
@@ -10,7 +11,9 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="${model.headerimageUrl_s}"><img src="${model.headerImage_s!""}" class="logo-image" alt="${model.title_t!""}"></a>
+      <a class="navbar-brand" href="${model.headerimageUrl_s}">
+        <@studio.img $model=model $field="headerImage_s" src=(model.headerImage_s!"") alt=(model.title_t!"") class="logo-image" />
+      </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
