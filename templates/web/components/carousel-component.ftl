@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <article>
   <!-- RoomCarousel -->
@@ -10,12 +10,12 @@
             <#assign index = image?index>
             <#if first>
               <div class="item active">
-                <@studio.img $field="images_o.image_s" $index=index src=(image.image_s!"") alt="slide" class="img-responsive"/>
+                <@crafter.img $field="images_o.image_s" $index=index src=(image.image_s!"") alt="slide" class="img-responsive"/>
               </div>
               <#assign first = false>
             <#else>
               <div class="item height-full">
-                <@studio.img $field="images_o.image_s" $index=index src=(image.image_s!"") alt="slide" class="img-responsive"/>
+                <@crafter.img $field="images_o.image_s" $index=index src=(image.image_s!"") alt="slide" class="img-responsive"/>
               </div>
             </#if>
           </#list>
@@ -27,9 +27,9 @@
   </div>
   <!-- RoomCarousel-->
   <div class="caption">
-    <@studio.span $field="urlTitle_t">
+    <@crafter.span $field="urlTitle_t">
         ${contentModel.urlTitle_t!""}
-    </@studio.span>
+    </@crafter.span>
     <a href="${contentModel.url_s!""}" class="pull-right"><i class="fa fa-edit"></i></a>
   </div>
 </article>

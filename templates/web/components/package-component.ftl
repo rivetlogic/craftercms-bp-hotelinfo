@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 <#import "/templates/web/includes/utils.ftl" as utils />
 
 <article>
@@ -9,7 +9,7 @@
                 <#list contentModel.photos_o.item as image>
                     <#assign index = image?index>
                     <#if first>
-                        <@studio.img
+                        <@crafter.img
                             $field="photos_o.photo_s"
                             $index=index
                             src=(image.photo_s)
@@ -20,16 +20,16 @@
                 </#list>
             </#if>
             <div class="info">
-                <@studio.h3 $field="name_t">
+                <@crafter.h3 $field="name_t">
                     ${contentModel.name_t!""}
-                </@studio.h3>
-                <@studio.p $field="shortDescription_t">
+                </@crafter.h3>
+                <@crafter.p $field="shortDescription_t">
                     ${contentModel.shortDescription_t!""}
-                </@studio.p>
+                </@crafter.p>
                 <a href="<@utils.appendIdlUrl contentModel.detailsUrl_s contentModel.objectId />" class="btn btn-default">
-                    <@studio.span $field="viewDescriptionButtonLabel_t">
+                    <@crafter.span $field="viewDescriptionButtonLabel_t">
                         ${contentModel.viewDescriptionButtonLabel_t!""}
-                    </@studio.span>
+                    </@crafter.span>
                 </a>
             </div>
         </div>

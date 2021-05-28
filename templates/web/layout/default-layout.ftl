@@ -1,4 +1,4 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 <#include "/templates/web/includes/global.ftl" />
 
 <#macro default cstudioSupport = true>
@@ -34,19 +34,11 @@
 
         <link rel="stylesheet" href="/static-assets/css/style.css">
 
+        <@crafter.head/>
     </head>
 
     <body id="home">
-
-
-        <!-- top
-          <form class="navbar-form navbar-left newsletter" role="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Enter Your Email Id Here">
-                </div>
-                <button type="submit" class="btn btn-inverse">Subscribe</button>
-            </form>
-         top -->
+        <@crafter.body_top/>
 
         <header id="header">
             <@renderHeader/>
@@ -101,7 +93,7 @@
         <!-- custom script -->
         <script src="/static-assets/js/script.js"></script>
 
-        <@studio.initPageBuilder/>
+        <@crafter.body_bottom/>
     </body>
     </html>
 </#macro>

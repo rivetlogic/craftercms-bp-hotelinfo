@@ -1,22 +1,24 @@
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <!DOCTYPE html>
 <html lang="en">
 	<head>
       <meta charset="utf-8">
       <title>${model.title_t}</title>
+	  <@crafter.head/>
 	</head>
 	<body>
-    	<div <@studio.iceAttr iceGroup="title"/>>
-				<@studio.h1 $model=model $field="title_t">
+		<@crafter.body_top/>
+    	<div <@crafter.iceAttr iceGroup="title"/>>
+				<@crafter.h1 $model=model $field="title_t">
 						${model.title_t}
-				</@studio.h1>
+				</@crafter.h1>
 			</div>
 
-			<@studio.tag $model=model $field="body_html">
+			<@crafter.tag $model=model $field="body_html">
 					${model.body_html}
-			</@studio.tag>
+			</@crafter.tag>
 
-			<@studio.initPageBuilder/>
+			<@crafter.body_bottom/>
 	</body>
 </html>
