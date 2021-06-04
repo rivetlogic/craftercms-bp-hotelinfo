@@ -1,22 +1,22 @@
 <#import "/templates/web/layout/default-layout.ftl" as layout/>
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <@layout.default>
 	<div class="container">
-		<@studio.h2 $field="title_t">
+		<@crafter.h2 $field="title_t">
 			${contentModel.title_t!""}
-		</@studio.h2>
+		</@crafter.h2>
 		<section>
-			<@studio.tag $field="packages_o" class="row">
+			<@crafter.tag $field="packages_o" class="row">
 				<#if contentModel.packages_o?? && contentModel.packages_o.item??>
 					<#list contentModel.packages_o.item as item>
 						<#assign index = item?index>
-						<@studio.tag $field="packages_o" class="col-sm-6" $index=index>
+						<@crafter.tag $field="packages_o" class="col-sm-6" $index=index>
 							<@renderComponent component=item />
-						</@studio.tag>
+						</@crafter.tag>
 					</#list>
 				</#if>
-			</@studio.tag>
+			</@crafter.tag>
 		</section>
 	</div>
 </@layout.default>

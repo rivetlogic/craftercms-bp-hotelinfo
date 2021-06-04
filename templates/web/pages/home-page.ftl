@@ -1,5 +1,5 @@
 <#import "/templates/web/layout/default-layout.ftl" as layout/>
-<#import "/templates/system/common/ice.ftl" as studio />
+<#import "/templates/system/common/crafter.ftl" as crafter />
 <@layout.default>
     <section>
         <#if contentModel.heroVideo_o?? && contentModel.heroVideo_o.item??>
@@ -12,12 +12,12 @@
     <div id="information" class="spacer reserve-info ">
         <div class="container">
             <div class="row">
-                <@studio.tag $field="mainRte_html" class="col-md-8">
+                <@crafter.tag $field="mainRte_html" class="col-md-8">
                     ${contentModel.mainRte_html!""}
-                </@studio.tag>
-                <@studio.tag $field="secondRte_html" class="col-md-4">
+                </@crafter.tag>
+                <@crafter.tag $field="secondRte_html" class="col-md-4">
                     ${contentModel.secondRte_html!""}
-                </@studio.tag>
+                </@crafter.tag>
             </div>
         </div>
     </div>
@@ -28,14 +28,14 @@
         <div class="container">
         <section>
            <#if contentModel.carousels_o?? && contentModel.carousels_o.item??>
-               <@studio.tag $field="carousels_o" class="row">
+               <@crafter.tag $field="carousels_o" class="row">
                     <#list contentModel.carousels_o.item as carousel>
                         <#assign index = carousel?index>
-                        <@studio.tag $field="carousels_o" $index=index class="col-sm-4">
+                        <@crafter.tag $field="carousels_o" $index=index class="col-sm-4">
                             <@renderComponent component=carousel />
-                        </@studio.tag>
+                        </@crafter.tag>
                     </#list>
-               </@studio.tag>
+               </@crafter.tag>
             </#if>
         </section>
         </div>
