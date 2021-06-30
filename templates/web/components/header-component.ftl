@@ -1,5 +1,4 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
-<#import "/templates/system/common/navigation.ftl" as nav/>
 
 <nav class="navbar  navbar-default" role="navigation">
   <div class="container">
@@ -18,7 +17,7 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-      <@nav.navigation containerElementClass="nav navbar-nav" itemWrapperActiveClass="" itemActiveClass="" showNavElement=false />
+      <@crafter.navigation containerElementClass="nav navbar-nav" itemWrapperActiveClass="" itemActiveClass="" showNavElement=false />
     </div><!-- Wnavbar-collapse -->
   </div><!-- container-fluid -->
 </nav>
