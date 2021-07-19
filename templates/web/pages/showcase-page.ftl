@@ -7,14 +7,14 @@
       ${contentModel.title_t!""}
     </@crafter.h2>
 
-    <@crafter.tag $field="rooms_o">
+    <@crafter.div $field="rooms_o">
       <#if contentModel.rooms_o?? && contentModel.rooms_o.item??>
         <#list contentModel.rooms_o.item as item>
-          <@crafter.tag $field="rooms_o" class="col-sm-6" $index=item?index>
+          <@crafter.div $field="rooms_o" class="col-sm-6" $index=item?index>
             <@renderComponent component=item/>
-          </@crafter.tag>
+          </@crafter.div>
         </#list>
       </#if>
-    </@crafter.tag>
+    </@crafter.div>
   </div>
 </@layout.default>

@@ -12,12 +12,12 @@
     <div id="information" class="spacer reserve-info ">
         <div class="container">
             <div class="row">
-                <@crafter.tag $field="mainRte_html" class="col-md-8">
+                <@crafter.div $field="mainRte_html" class="col-md-8">
                     ${contentModel.mainRte_html!""}
-                </@crafter.tag>
-                <@crafter.tag $field="secondRte_html" class="col-md-4">
+                </@crafter.div>
+                <@crafter.div $field="secondRte_html" class="col-md-4">
                     ${contentModel.secondRte_html!""}
-                </@crafter.tag>
+                </@crafter.div>
             </div>
         </div>
     </div>
@@ -28,14 +28,14 @@
         <div class="container">
         <section>
            <#if contentModel.carousels_o?? && contentModel.carousels_o.item??>
-               <@crafter.tag $field="carousels_o" class="row">
+               <@crafter.div $field="carousels_o" class="row">
                     <#list contentModel.carousels_o.item as carousel>
                         <#assign index = carousel?index>
-                        <@crafter.tag $field="carousels_o" $index=index class="col-sm-4">
+                        <@crafter.div $field="carousels_o" $index=index class="col-sm-4">
                             <@renderComponent component=carousel />
-                        </@crafter.tag>
+                        </@crafter.div>
                     </#list>
-               </@crafter.tag>
+               </@crafter.div>
             </#if>
         </section>
         </div>

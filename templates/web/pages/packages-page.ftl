@@ -7,16 +7,16 @@
 			${contentModel.title_t!""}
 		</@crafter.h2>
 		<section>
-			<@crafter.tag $field="packages_o" class="row">
+			<@crafter.div $field="packages_o" class="row">
 				<#if contentModel.packages_o?? && contentModel.packages_o.item??>
 					<#list contentModel.packages_o.item as item>
 						<#assign index = item?index>
-						<@crafter.tag $field="packages_o" class="col-sm-6" $index=index>
+						<@crafter.div $field="packages_o" class="col-sm-6" $index=index>
 							<@renderComponent component=item />
-						</@crafter.tag>
+						</@crafter.div>
 					</#list>
 				</#if>
-			</@crafter.tag>
+			</@crafter.div>
 		</section>
 	</div>
 </@layout.default>

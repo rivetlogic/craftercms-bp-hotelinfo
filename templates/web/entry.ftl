@@ -15,9 +15,9 @@
 				</@crafter.h1>
 			</div>
 
-			<@crafter.tag $model=model $field="body_html">
+			<@crafter.div $model=model $field="body_html">
 					${model.body_html}
-			</@crafter.tag>
+			</@crafter.div>
 
 			<@crafter.body_bottom/>
 	</body>
