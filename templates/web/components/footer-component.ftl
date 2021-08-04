@@ -9,9 +9,9 @@
                   ${model.descriptionTitle_t!""}
               </@crafter.h4>
 
-              <@crafter.tag $model=model $field="description_html">
+              <@crafter.div $model=model $field="description_html">
                   ${model.description_html!""}
-              </@crafter.tag>
+              </@crafter.div>
             </div>
 
             <div class="col-sm-3">

@@ -6,17 +6,17 @@
         <@crafter.h1 $field="title_t" class="title">
             ${contentModel.title_t!""}
         </@crafter.h1>
-        <@crafter.tag $field="images_o" class="row gallery">
+        <@crafter.div $field="images_o" class="row gallery">
             <#if contentModel.images_o?? && contentModel.images_o.item??>
                 <#list contentModel.images_o.item as image>
                     <#assign index = image?index>
-                    <@crafter.tag $field="images_o" $index=index class="col-sm-4 wowload fadeInUp">
+                    <@crafter.div $field="images_o" $index=index class="col-sm-4 wowload fadeInUp">
                         <a href="${image.image_s!""}" title="${image.imageTitle_t!""}" class="gallery-image" data-gallery>
                             <@crafter.img $field="images_o.image_s" $index=index src=(image.image_s!"") class="img-responsive" />
                         </a>
-                    </@crafter.tag>
+                    </@crafter.div>
                 </#list>
             </#if>
-        </@crafter.tag>
+        </@crafter.div>
     </div>
 </@layout.default>
