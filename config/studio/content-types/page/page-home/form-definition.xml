@@ -165,7 +165,7 @@
 					</constraints>
 				</field>
 				<field>
-					<type>rte-tinymce5</type>
+					<type>rte</type>
 					<id>mainRte_html</id>
 					<iceId>mainRte</iceId>
 					<title>Main Rte</title>
@@ -238,7 +238,7 @@
 					</constraints>
 				</field>
 				<field>
-					<type>rte-tinymce5</type>
+					<type>rte</type>
 					<id>secondRte_html</id>
 					<iceId>secondRte</iceId>
 					<title>Second Rte</title>
