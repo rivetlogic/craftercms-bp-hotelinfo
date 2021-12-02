@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<@crafter.componentRootTag $tag="article">
+<@crafter.article>
     <!-- banner -->
     <div class="banner">
         <video playsinline autoplay muted loop poster="${contentModel.fallbackImage_s!""}" class="img-responsive video bannerVideo" id="bgvid">
@@ -21,4 +21,4 @@
         </div>
     </div>
     <!-- banner-->
-</@crafter.componentRootTag>
+</@crafter.article>

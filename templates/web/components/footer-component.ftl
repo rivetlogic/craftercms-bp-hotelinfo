@@ -3,7 +3,7 @@
 <footer class="spacer">
     <div class="container">
         <div class="row">
-        	
+
             <div class="col-sm-5">
               <@crafter.h4 $model=model $field="descriptionTitle_t">
                   ${model.descriptionTitle_t!""}
@@ -19,7 +19,7 @@
                     ${model.quickLinksTitle_t!""}
                 </@crafter.h4>
 
-                <@crafter.renderRepeatCollection
+                <@crafter.renderRepeatGroup
                   $field="quickLinks_o"
                   $containerAttributes={'class': 'list-unstyled'};
                   <#-- Nested content values passed down by the macro: -->
@@ -30,7 +30,7 @@
                         ${item.label_t!""}
                     </@crafter.span>
                   </a>
-                </@crafter.renderRepeatCollection>
+                </@crafter.renderRepeatGroup>
             </div>
 
             <div class="col-sm-4 subscribe">
@@ -44,7 +44,7 @@
                     </#if>
                 </div>
             </div>
-            
+
         </div>
         <!--/.row-->
     </div>
