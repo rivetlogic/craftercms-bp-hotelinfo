@@ -211,7 +211,7 @@
 		</section>
 	</sections>
 	<datasources>				<datasource>
-					<type>dropTargets</type>
+					<type>components</type>
 					<id>packagesDatasource</id>
 					<title>Packages Datasource</title>
 					<interface>item</interface>

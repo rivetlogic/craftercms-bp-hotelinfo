@@ -369,7 +369,7 @@
 		</section>
 	</sections>
 	<datasources>				<datasource>
-					<type>dropTargets</type>
+					<type>components</type>
 					<id>carouselDatasource</id>
 					<title>Carousel Datasource</title>
 					<interface>item</interface>
@@ -417,7 +417,7 @@
 					</properties>
 				</datasource>
 				<datasource>
-					<type>dropTargets</type>
+					<type>components</type>
 					<id>heroVideoDatasource</id>
 					<title>Hero Video Datasource</title>
 					<interface>item</interface>

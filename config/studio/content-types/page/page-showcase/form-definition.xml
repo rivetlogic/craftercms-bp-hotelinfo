@@ -221,7 +221,7 @@
 		</section>
 	</sections>
 	<datasources>				<datasource>
-					<type>dropTargets</type>
+					<type>components</type>
 					<id>roomsDatasource</id>
 					<title>Rooms Datasource</title>
 					<interface>item</interface>
