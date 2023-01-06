@@ -7,10 +7,10 @@
 	<file-name>package-a.xml</file-name>
 	<folder-name/>
 	<internal-name>Package A</internal-name>
-	<createdDate>2017-5-12T15:45:53.000Z</createdDate>
-	<createdDate_dt>2017-5-12T15:45:53.000Z</createdDate_dt>
-	<lastModifiedDate>2017-6-16T21:44:39.000Z</lastModifiedDate>
-	<lastModifiedDate_dt>2017-6-16T21:44:39.000Z</lastModifiedDate_dt>
+	<createdDate>2017-05-12T15:45:53.000Z</createdDate>
+	<createdDate_dt>2017-05-12T15:45:53.000Z</createdDate_dt>
+	<lastModifiedDate>2017-06-16T21:44:39.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2017-06-16T21:44:39.000Z</lastModifiedDate_dt>
 	<name_t>Package A</name_t>
 	<priceLabel_t>Price</priceLabel_t>
 	<price_t>$200.000</price_t>
