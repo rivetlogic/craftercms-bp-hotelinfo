@@ -14,7 +14,7 @@ plugin:
   version:
     major: 2
     minor: 0
-    patch: 30
+    patch: 31
   description: |
     Hotel Website is a stylish multi-page Crafter CMS blueprint with video backgrounds.
   website:
@@ -43,9 +43,6 @@ plugin:
     name: MIT
     url: https://opensource.org/licenses/MIT
   crafterCmsVersions:
-    - major: 4
-      minor: 0
-      patch: 2
     - major: 4
       minor: 0
       patch: 3
