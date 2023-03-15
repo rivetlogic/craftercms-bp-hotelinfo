@@ -14,7 +14,7 @@ plugin:
   version:
     major: 2
     minor: 0
-    patch: 31
+    patch: 32
   description: |
     Hotel Website is a stylish multi-page Crafter CMS blueprint with video backgrounds.
   website:
@@ -49,6 +49,9 @@ plugin:
     - major: 4
       minor: 0
       patch: 4
+    - major: 4
+      minor: 1
+      patch: 0
   crafterCmsEditions:
     - community
     - enterprise
